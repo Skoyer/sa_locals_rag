@@ -1,0 +1,9 @@
+schedule==1.2.1
+yt-dlp
+playwright
+beautifulsoup4
+requests
+python-dotenv
+openai-whisper
+fastapi
+uvicorn[standard]
