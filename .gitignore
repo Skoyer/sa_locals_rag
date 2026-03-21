@@ -1,0 +1,66 @@
+# --- Virtual environment ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Environment and secrets ---
+.env
+locals_cookies.txt
+
+# --- SQLite / local DB (optional; keep DB local) ---
+*.db
+*.db-journal
+
+# --- Bytecode / compiled ---
+*.so
+*.dll
+*.dylib
+
+# --- Logs and temp ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Large binary / media files ---
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.wma
+
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wmv
+*.webm
+
+# --- Transcripts / raw text dumps (adjust as needed) ---
+*transcript*.txt
+*transcription*.txt
+*.vtt
+*.srt
+
+# --- JSON data you don't want in repo ---
+*.json
+
+# --- Jupyter and editor cruft ---
+.ipynb_checkpoints/
+*.ipynb
+.vscode/
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
