@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SA Locals RAG
 
 SA Locals RAG is a pipeline that ingests Scott Adams Locals.com videos, downloads and transcribes them, analyzes the transcripts with an LLM, and builds topic‑based playlists plus a browsable web view.
@@ -243,4 +242,4 @@ Same via `python run_help_indexer.py …`.
 **Requirements**: FFmpeg/ffprobe on `PATH` (for duration), Whisper/PyTorch as above.
 
 **Programmatic search**: use `help_indexer.search.search_segments(conn, query, limit=20)` — same SQL as documented in the plan (BM25 + `snippet()`).
->>>>>>> 1dce120d66b52dbf6333ff64c26e17fc6887425a
+
