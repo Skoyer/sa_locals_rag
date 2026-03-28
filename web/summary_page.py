@@ -6,7 +6,13 @@ import json
 import sqlite3
 import time
 from datetime import datetime, timezone
+import sys
 from pathlib import Path
+
+# Repo root must be on sys.path when running `python web/summary_page.py` (not only `python -m web.summary_page`).
+_ROOT = Path(__file__).resolve().parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
 
 import db
 
@@ -357,6 +363,12 @@ def write_summary_page(db_path: str = "playlist_archive.db") -> None:
     t0 = time.perf_counter()
     payload = export_data_js(db_path)
     HERE.mkdir(parents=True, exist_ok=True)
+    topic_browser_public = HERE.parent / "topic-browser" / "public"
+    topic_browser_public.mkdir(parents=True, exist_ok=True)
+    (topic_browser_public / "lessons.json").write_text(
+        json.dumps(payload["lessons"], ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     js = "window.SA_LESSONS_DATA = " + json.dumps(payload, ensure_ascii=False) + ";"
     (HERE / "data.js").write_text(js, encoding="utf-8")
     (HERE / "index.html").write_text(HTML_TEMPLATE, encoding="utf-8")
