@@ -113,6 +113,10 @@ python -m transcription.cli --sync-orphans --limit 5
 
 Separate from the playlist DB: scans a media folder, transcribes with Whisper into **timestamped segments**, stores them in **`help_videos.db`**, and keeps an **FTS5** index (`transcript_segments_fts`) in sync via triggers—ready for a search UI.
 
+**Important:** Search can only return videos you have **indexed** into `help_videos.db`. If you previously ran `index --limit 2`, only those files exist in the DB—run **`python -m help_indexer index`** (no limit) after adding downloads so every file is transcribed and searchable.
+
+**Loose search behavior:** Multi-word queries use **AND** between terms in the same segment (e.g. `persuasion* AND ethics*`). If nothing matches, the query falls back to **OR**. If the topic appears in the **video title** but not in one segment, extra rows are added from titles that contain **all** keywords.
+
 **Environment** (optional)
 
 - `HELP_MEDIA_DIR` — folder to scan (default `./downloads`)
@@ -126,9 +130,8 @@ Separate from the playlist DB: scans a media folder, transcribes with Whisper in
 python -m help_indexer index
 python -m help_indexer index --limit 2 --model base
 
-# FTS search (JSON to stdout). Default is "loose" (prefix + OR) so multi-word
-# queries match compound tokens in transcripts (e.g. brainwashing vs "brain washing").
-python -m help_indexer search "brain washing" --limit 10
+# FTS search (JSON to stdout). "loose" uses AND for multi-word, then OR fallback.
+python -m help_indexer search "persuasion ethics" --limit 10
 python -m help_indexer search "brain washing" --strict   # FTS5 AND all terms
 
 # Rebuild FTS from transcript_segments if you fixed rows manually
