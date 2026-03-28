@@ -9,3 +9,11 @@ fastapi
 uvicorn[standard]
 gradio
 openai
+rich
+sentence-transformers
+scikit-learn
+numpy
+wordcloud
+Pillow
+matplotlib
+tqdm

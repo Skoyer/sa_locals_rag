@@ -1,0 +1,1 @@
+"""Static summary site generator."""
