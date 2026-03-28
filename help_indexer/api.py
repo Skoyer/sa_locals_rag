@@ -62,6 +62,8 @@ class IndexRequest(BaseModel):
 class SearchHit(BaseModel):
     video_id: int
     title: str | None
+    filename: str | None = None
+    external_id: str | None = None
     segment_id: int
     start_sec: float
     end_sec: float
