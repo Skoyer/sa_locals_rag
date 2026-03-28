@@ -38,6 +38,7 @@ temp/
 *.aac
 *.ogg
 *.wma
+*.png
 
 *.mp4
 *.mkv
@@ -64,3 +65,6 @@ temp/
 # --- OS files ---
 .DS_Store
 Thumbs.db
+
+
+
