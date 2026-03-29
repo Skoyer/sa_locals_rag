@@ -134,7 +134,7 @@ export default function App() {
       <footer className="site-footer">
         <div className="page-shell">
           <div className="site-footer__stats">
-            Videos: {stats.total_videos ?? 0} &nbsp; Clusters: {stats.total_clusters ?? 0} &nbsp; Topic
+            Videos: {stats.total_videos ?? 0} &nbsp; Themes: {stats.total_clusters ?? 0} &nbsp; Topic
             tags: {stats.topics ?? 0}
           </div>
           <div className="site-footer__gen">Generated: {data.generated_at || ''} — static export</div>

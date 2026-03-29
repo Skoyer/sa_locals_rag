@@ -2,6 +2,7 @@ export function normalizeClusterTitle(raw) {
   if (!raw) return '';
   return raw
     .replace(/^Micro Lessons? on\s+/i, '')
+    .replace(/^Micro Lessons?\s+for\s+/i, '')
     .replace(/\s+/g, ' ')
     .trim()
     .replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase());
@@ -30,6 +31,32 @@ export function normalizeVideoTitle(raw, transcriptId) {
 export function clusterDisplayTitle(cluster) {
   if (cluster?.title2) return cluster.title2;
   return normalizeClusterTitle(cluster?.title_original || cluster?.cluster_name || '');
+}
+
+/** Short codes for theme footers (aligned to cluster_id in data). */
+export const CLUSTER_THEME_ABBREV = {
+  0: 'TM',
+  1: 'RM',
+  2: 'IC',
+  3: 'PB',
+  4: 'SC',
+  5: 'HT',
+  6: 'SP',
+  7: 'ML',
+  8: 'PT',
+  9: 'SM',
+  10: 'MH',
+  11: 'EC',
+  12: 'LP',
+  13: 'FP',
+  14: 'CD',
+};
+
+export function clusterThemeAbbrev(cid) {
+  const n = Number(cid);
+  return Number.isFinite(n) && CLUSTER_THEME_ABBREV[n] != null
+    ? CLUSTER_THEME_ABBREV[n]
+    : String(cid ?? '');
 }
 
 export function videoDisplayTitle(L) {

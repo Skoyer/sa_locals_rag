@@ -1,4 +1,4 @@
-import { videoDisplayTitle, videoTooltipText } from '../normalize.js';
+import { clusterThemeAbbrev, videoDisplayTitle, videoTooltipText } from '../normalize.js';
 
 function SearchIcon() {
   return (
@@ -35,7 +35,10 @@ export default function LessonLibrary({
           <div className="filter-bar" role="status" aria-live="polite">
             {activeThemeId != null ? (
               <span className="filter-chip">
-                Theme: <strong>{activeThemeName || `Cluster #${activeThemeId}`}</strong>
+                Theme:{' '}
+                <strong>
+                  {activeThemeName || `Theme ${clusterThemeAbbrev(activeThemeId)}`}
+                </strong>
               </span>
             ) : null}
             {activeThemeId != null && searchInput.trim() ? (

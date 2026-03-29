@@ -1,4 +1,4 @@
-import { clusterDisplayTitle } from '../normalize.js';
+import { clusterDisplayTitle, clusterThemeAbbrev } from '../normalize.js';
 
 export default function LessonThemes({ clusters, activeThemeId, onThemeSelect }) {
   return (
@@ -17,7 +17,8 @@ export default function LessonThemes({ clusters, activeThemeId, onThemeSelect })
             title_original: first.cluster_name,
             cluster_name: first.cluster_name,
           });
-          const label = name || `Cluster ${cid}`;
+          const abbrev = clusterThemeAbbrev(cid);
+          const label = name || `Theme ${abbrev}`;
           const isActive = String(activeThemeId) === String(cid);
           return (
             <button
@@ -38,7 +39,7 @@ export default function LessonThemes({ clusters, activeThemeId, onThemeSelect })
               />
               <span className="theme-card__title">{label}</span>
               <span className="theme-card__meta">
-                Cluster #{cid} · {list.length} lesson{list.length === 1 ? '' : 's'}
+                Theme {abbrev} · {list.length} lesson{list.length === 1 ? '' : 's'}
               </span>
             </button>
           );
