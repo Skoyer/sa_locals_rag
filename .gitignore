@@ -54,7 +54,9 @@ temp/
 *.srt
 
 # --- JSON data you don't want in repo ---
-*.json
+data/*.json
+logs/*.json
+transcriptions/*.json
 
 # --- Jupyter and editor cruft ---
 .ipynb_checkpoints/
