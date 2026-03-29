@@ -39,6 +39,10 @@ temp/
 *.ogg
 *.wma
 *.png
+# Ship web2 static assets and generated wordclouds for Cloudflare Pages / CI builds
+!web2/public/**/*.png
+!wordclouds/**/*.png
+
 
 *.mp4
 *.mkv
