@@ -4,8 +4,8 @@ import { useTopicBrowserStore } from '../../store/useTopicBrowserStore'
 
 export function TopicList() {
   const topics = useTopicBrowserStore((s) => s.allTopics)
-  const selectedTopicId = useTopicBrowserStore((s) => s.selectedTopicId)
-  const setSelectedTopicId = useTopicBrowserStore((s) => s.setSelectedTopicId)
+  const selectedTopicIds = useTopicBrowserStore((s) => s.selectedTopicIds)
+  const setSelectedTopicIds = useTopicBrowserStore((s) => s.setSelectedTopicIds)
 
   return (
     <div>
@@ -17,13 +17,13 @@ export function TopicList() {
       </p>
       <ul className="mt-3 max-h-[min(40vh,320px)] space-y-1 overflow-y-auto pr-1">
         {topics.map((t) => {
-          const selected = selectedTopicId === t.id
+          const selected = selectedTopicIds.includes(t.id)
           return (
             <li key={t.id}>
               <button
                 type="button"
                 onClick={() =>
-                  setSelectedTopicId(selected ? null : t.id)
+                  setSelectedTopicIds(selected ? [] : [t.id])
                 }
                 className={`flex w-full items-center justify-between gap-2 rounded-lg border px-3 py-2 text-left text-sm transition-colors ${
                   selected

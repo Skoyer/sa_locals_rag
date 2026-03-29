@@ -29,7 +29,10 @@ def _max_transcript_chars() -> int:
 
 
 def _llm_batch_size() -> int:
-    return max(1, min(8, int(os.getenv("LLM_BATCH_SIZE", "3"))))
+    # Default 1: many local models (e.g. Qwen Coder) return a flat {core_lesson,...} object
+    # instead of {"VIDEO_1":..., "VIDEO_2":...}; _parse_pass1_batch only accepts that when n==1.
+    # Set LLM_BATCH_SIZE=3–8 if your model reliably emits VIDEO_n keys per batch.
+    return max(1, min(8, int(os.getenv("LLM_BATCH_SIZE", "1"))))
 
 
 def _truncate_transcript(text: str, max_chars: int) -> str:

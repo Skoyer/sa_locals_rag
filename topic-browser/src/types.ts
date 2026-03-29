@@ -9,6 +9,8 @@ export interface LessonRaw {
   transcript_id: number
   url: string
   title: string
+  /** Short display title from `scripts/generate_short_titles.py` (optional until generated). */
+  short_title?: string
   summary_text: string
   core_lesson: string
   key_concepts: string[]
@@ -47,4 +49,34 @@ export interface NormalizeResult {
   topics: Topic[]
   clusters: Cluster[]
   videos: Video[]
+}
+
+export interface LearningPathBase {
+  id: string
+  title: string
+  description?: string | null
+  tags: string[]
+  videoIds: number[]
+  createdAt: string
+}
+
+export interface FeaturedLearningPath extends LearningPathBase {
+  kind: 'featured'
+}
+
+export interface UserLearningPath extends LearningPathBase {
+  kind: 'user'
+  updatedAt: string
+}
+
+export interface UserProfile {
+  id: string
+  displayName?: string | null
+  createdAt: string
+}
+
+export interface VideoProgress {
+  userId: string
+  videoId: number
+  completedAt: string
 }

@@ -1,50 +1,16 @@
 import { CircleHelp, Search } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback } from 'react'
 
 import { useTopicBrowserStore } from '../../store/useTopicBrowserStore'
-
-const DEBOUNCE_MS = 400
 
 export function SearchBar() {
   const searchQuery = useTopicBrowserStore((s) => s.searchQuery)
   const setSearchQuery = useTopicBrowserStore((s) => s.setSearchQuery)
 
-  const [draft, setDraft] = useState(searchQuery)
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
-
-  useEffect(() => {
-    setDraft(searchQuery)
-  }, [searchQuery])
-
-  const flush = useCallback(
-    (value: string) => {
-      if (timerRef.current) {
-        clearTimeout(timerRef.current)
-        timerRef.current = null
-      }
-      setSearchQuery(value.trim())
-    },
-    [setSearchQuery],
-  )
-
-  const schedule = useCallback(
-    (value: string) => {
-      setDraft(value)
-      if (timerRef.current) clearTimeout(timerRef.current)
-      timerRef.current = setTimeout(() => {
-        setSearchQuery(value.trim())
-        timerRef.current = null
-      }, DEBOUNCE_MS)
-    },
-    [setSearchQuery],
-  )
-
-  useEffect(
-    () => () => {
-      if (timerRef.current) clearTimeout(timerRef.current)
-    },
-    [],
-  )
+  const flush = useCallback(() => {
+    const q = useTopicBrowserStore.getState().searchQuery.trim()
+    setSearchQuery(q)
+  }, [setSearchQuery])
 
   return (
     <div className="w-full max-w-xl">
@@ -54,12 +20,12 @@ export function SearchBar() {
           type="search"
           className="min-w-0 flex-1 bg-transparent text-zinc-100 placeholder:text-zinc-500 focus:outline-none"
           placeholder="Search videos by title, topic, or cluster…"
-          value={draft}
-          onChange={(e) => schedule(e.target.value)}
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter') {
               e.preventDefault()
-              flush(draft)
+              flush()
             }
           }}
           aria-label="Search videos"
@@ -67,7 +33,7 @@ export function SearchBar() {
         <button
           type="button"
           className="rounded-md p-1.5 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-100"
-          onClick={() => flush(draft)}
+          onClick={flush}
           title="Search"
           aria-label="Run search"
         >

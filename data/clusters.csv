@@ -1,84 +1,261 @@
 id,title,cluster_id
-1,A Micro Lesson on how to brag without being a jerk,9
-2,A Micro Lesson on the power of praise,9
-3,A Micro Lesson on how to give criticism,14
-4,A micro lesson on expectations and contrast for persuasion,7
-5,A micro lesson in changing what people want,5
-6,A Micro Lesson on waking up on time,8
-7,A micro lesson on the Mind-reader Persuasion Trick,7
-13,A Micro Lesson on paying attention (focus),8
-14,A Micro Lesson on finding meaning (in life),1
-15,A Micro Lesson on Avoiding Backward Pitches,7
-16,A Micro Lesson on how to know you live in a software simulation,5
-17,A Micro Lesson on spotting the illusions holding you back,13
-18,A Micro Lesson on the TV Executive Enthusiasm Prediction Model,2
-23,A Micro Lesson on the subjectivity of data,1
-24,Micro Lesson in spotting “thinking past the sale”,2
-25,A Micro Lesson on How to Create Luck,6
+1,A Micro Lesson on how to brag without being a jerk,4
+2,A Micro Lesson on the power of praise,4
+3,A Micro Lesson on how to give criticism,11
+4,A micro lesson on expectations and contrast for persuasion,8
+5,A micro lesson in changing what people want,3
+6,A Micro Lesson on waking up on time,5
+7,A micro lesson on the Mind-reader Persuasion Trick,8
+8,A Micro Lesson on the simplest magic trick for kids,5
+9,A Micro Lesson on finding a mentor,11
+10,"A micro lesson on the word ""botched"" as persuasion",8
+11,A micro lesson on creating a diet system for yourself,9
+12,"A micro lesson on the ""fake because"" and the Persuasion Filter",8
+13,A Micro Lesson on paying attention (focus),13
+14,A Micro Lesson on finding meaning (in life),4
+15,A Micro Lesson on Avoiding Backward Pitches,8
+16,A Micro Lesson on how to know you live in a software simulation,2
+17,A Micro Lesson on spotting the illusions holding you back,12
+18,A Micro Lesson on the TV Executive Enthusiasm Prediction Model,8
+19,A Micro Lesson on Life's Illusions,6
+20,A Micro Lesson on conflict resolution,13
+21,A Micro Lesson on being more productive,13
+22,"A Micro Lesson on testing your product, service, or art",6
+23,A Micro Lesson on the subjectivity of data,8
+24,Micro Lesson in spotting “thinking past the sale”,8
+25,A Micro Lesson on How to Create Luck,2
 26,A Micro Lesson on Systems versus Goals,6
-27,A Micro Lesson on using the Energy Filter to predict,4
-28,A Micro Lesson on personality as a chemical experiment,1
-29,Micro Lesson on using your imagination to steer your future,11
-30,A Micro Lesson on how to make friends,0
-32,A Micro Lesson on creating a viral hashtag such as #BidenRiots,9
-33,"A Micro Lesson on managing your ""flow""",4
-34,A micro lesson on using diversion as persuasion,0
-35,A Micro Lesson on time management persuasion,5
-36,"A Micro Lesson on ""Persuasion voice""",2
-37,A Micro Lesson on Effectively Naming things for persuasion,12
-38,A Micro Lesson on being non-judgmental,14
-39,A Micro Lesson on handling unpleasant tasks with no extra unpleasantness,4
-40,A Micro Lesson on systems for being on time,5
-41,A Micro Lesson on how to predict,1
-45,A Micro Lesson on how to focus,8
-46,Micro Lesson on cartooning technology,13
-47,Micro Lesson on how to persuasively say no,14
-48,"A Micro Lesson on maintaining creative ""flow""",4
-49,A Micro Lesson on motivating employees,2
-50,A Micro Lesson on getting video lighting right,4
-53,A Micro Lesson on spotting cognitive dissonance,11
-55,A micro lesson on when to trust experts,7
-56,A micro lesson on asking for what you want,14
-59,A Micro Lesson on handling grief,8
-60,A Micro Lesson on persuasive voice technique,2
-61,A Micro Lesson on the first sentence,12
-63,A Micro Lesson on controlling the controllable,10
-66,A Micro Lesson on Giving and Getting Compliments,9
-67,A Micro Lesson on the six signals for bad grammar,7
-68,A Micro Lesson on Prophesy vs Plan,6
-69,A Micro Lesson on programming yourself for good habits,5
+27,A Micro Lesson on using the Energy Filter to predict,2
+28,A Micro Lesson on personality as a chemical experiment,9
+29,Micro Lesson on using your imagination to steer your future,2
+30,A Micro Lesson on how to make friends,3
+31,A Micro Lesson on using trees to reduce stress,10
+32,A Micro Lesson on creating a viral hashtag such as #BidenRiots,11
+33,"A Micro Lesson on managing your ""flow""",13
+34,A micro lesson on using diversion as persuasion,11
+35,A Micro Lesson on time management persuasion,13
+36,"A Micro Lesson on ""Persuasion voice""",8
+37,A Micro Lesson on Effectively Naming things for persuasion,7
+38,A Micro Lesson on being non-judgmental,3
+39,A Micro Lesson on handling unpleasant tasks with no extra unpleasantness,9
+40,A Micro Lesson on systems for being on time,0
+41,A Micro Lesson on how to predict,11
+42,Trying to keep up with my neighbor and failing,3
+43,Micro Lesson on creating ideas,2
+44,A Micro Lesson on the success secrets of The Beatles,2
+45,A Micro Lesson on how to focus,13
+46,Micro Lesson on cartooning technology,14
+47,Micro Lesson on how to persuasively say no,8
+48,"A Micro Lesson on maintaining creative ""flow""",14
+49,A Micro Lesson on motivating employees,13
+50,A Micro Lesson on getting video lighting right,6
+51,A Micro Lesson on good versus great,11
+52,A Micro Lesson on programming your own brain,2
+53,A Micro Lesson on spotting cognitive dissonance,1
+54,A Micro Lesson on reframing stress and anxiety,1
+55,A micro lesson on when to trust experts,6
+56,A micro lesson on asking for what you want,11
+57,A micro lesson on food persuasion,9
+58,Hypnotist Diet Plan,5
+59,A Micro Lesson on handling grief,9
+60,A Micro Lesson on persuasive voice technique,8
+61,A Micro Lesson on the first sentence,7
+62,A Micro Lesson on navigating the five Love Languages,9
+63,A Micro Lesson on controlling the controllable,4
+64,A Micro Lesson on Reframing Your PTSD As a Superpower,1
+65,A Micro Lesson on Reframing Despair/Sadness,1
+66,A Micro Lesson on Giving and Getting Compliments,4
+67,A Micro Lesson on the six signals for bad grammar,8
+68,A Micro Lesson on Prophesy vs Plan,2
+69,A Micro Lesson on programming yourself for good habits,10
 70,A Micro Lesson on turning work into fun,6
-71,A Micro Lesson on priorities for success,10
-105,Micro Lesson: Brainwashing Versus Hypnosis,10
-106,A Micro Lesson on reframing the coldness,11
-107,"A Micro Lesson on increasing your ""willpower""",10
-111,A Micro Lesson on beating procrastination,8
-115,Episode 2012 EXCERPT - Predictions and Forecasts,7
-116,A Micro Lesson on beating Writers Block,3
-117,Micro Lesson on AI now and soon,12
-118,Micro Lesson on removing emotion from a negotiation,14
-119,Micro Lesson on breathing and posture when bored,8
-120,Micro Lesson on being happier and less bored,0
-130,A Micro Lesson on fixing online education,13
-131,Micro Lesson on detecting lies,12
+71,A Micro Lesson on priorities for success,6
+72,Micro Lesson on home efficiency,13
+73,A Micro Lesson on using imagination to fuel your success,2
+74,Micro lesson on knowing who you are,9
+75,"Micro Lesson: Obesity Is An Information Problem, Not a Willpower Problem",6
+76,A Micro Lesson on Simplifying,10
+77,A micro lesson on success strategies,6
+78,Micro Lesson on career decisions,6
+79,A Micro Lesson on making women cum (tips from a hypnotist),5
+80,A Micro Lesson on your Value versus your Usefulness,4
+81,A Micro Lesson on levels of awareness,8
+82,A Micro Lesson on Talking Like a Hypnotist,8
+83,A Micro Lesson on how to know your product or idea is special or not,8
+84,A Micro Lesson on the power of momentum,13
+85,Micro lesson on portion control and diet,9
+86,A Micro Lesson on persuasive word and phrases,8
+87,Micro Lesson on curing social anxiety,4
+88,Micro Lesson on making money from nothing,6
+89,Micro Lesson on making money without money,6
+90,Micro Lesson on reframing reality,1
+91,Micro Lesson on Survivor's Guilt,1
+92,A Micro Lesson on practicing the non-obvious,6
+93,How to twirl a drumstick,12
+94,A Micro Lesson on fixing everything,7
+95,Micro lesson on air fryers,0
+96,A Micro Lesson on taking a mental vacation,1
+97,Micro Lesson on Psychological Blindness and magic tricks,5
+98,A Micro Lesson on confidence,4
+99,Micro Lesson on not trusting meta studies,0
+100,A Whiteboard Micro Lesson: War With China,6
+101,A Micro Lesson on Triggers and Frames,1
+102,Micro Lesson on picking the best filter on reality,1
+103,Micro Lesson on gamifying boring chores,2
+104,Micro Lesson: HOAX Creation,7
+105,Micro Lesson: Brainwashing Versus Hypnosis,5
+106,A Micro Lesson on reframing the coldness,1
+107,"A Micro Lesson on increasing your ""willpower""",3
+108,A Micro Lesson on how practice works,2
+109,A Micro Lesson on learning something new,12
+110,A Micro Lesson on getting rid of unwanted thoughts,5
+111,A Micro Lesson on beating procrastination,2
+112,A Micro Lesson on Solar energy economics,6
+113,A Micro Lesson on talking sexy like a hypnotist,4
+114,Episode 2012 EXCERPT - 7 Tells For Cognitive Dissonance,8
+115,Episode 2012 EXCERPT - Predictions and Forecasts,2
+116,A Micro Lesson on beating Writers Block,11
+117,Micro Lesson on AI now and soon,2
+118,Micro Lesson on removing emotion from a negotiation,11
+119,Micro Lesson on breathing and posture when bored,13
+120,Micro Lesson on being happier and less bored,9
+121,Micro Lesson on proper lighting,11
+122,EPISODE 2045 EXCERPT - Reframing Race,11
+123,My dog Snickers uses the transporter,2
+124,Micro Lesson on Micro Dieting,9
+125,Micro Lesson on business contracts,11
+126,"Micro Lesson on solving ""problems"" with a reframe",2
+127,Micro Lesson on finding and loving yourself,4
+128,"A Micro Lesson on avoiding ""cancellation""",8
+129,Micro Lesson on using your environment to program your brain,12
+130,A Micro Lesson on fixing online education,12
+131,Micro Lesson on detecting lies,7
 132,A Micro Lesson on Stock investing for beginners,7
-133,A Micro Lesson on managing oxytocin to improve relationships,1
-134,Episode 2158 EXCERPT: American Success,10
+133,A Micro Lesson on managing oxytocin to improve relationships,9
+134,Episode 2158 EXCERPT: American Success,6
 135,Micro Lesson on dopamine and social life,9
-136,A Micro Lesson on Dog Psychology,7
-143,A Micro Lesson on how to explain things clearly,7
-156,A Micro Lesson on using persuasion to minimize the coming George Floyd riots,3
-171,Micro Lesson on reframing exercise,8
-172,Micro Lesson on eye contact,0
-173,Micro Lesson on how to end a conversation,0
-186,Micro Lesson on the Great Filters of life,12
-188,"Micro Lesson on how to ""Get Out!"" of your head",11
-189,Micro Lesson on Identity persuasion,2
-193,Micro Lesson on Underdoing Exercise,8
-195,Micro Lesson on fake equals real,9
-196,A Micro Lesson on Proper Voice Technique,2
-198,Episode 975 Scott Adams,6
-205,Micro Lesson on being smart about America’s debt,5
-207,Micro Lesson From Episode 985,12
-250,A Micro Lesson on voice variability,2
-252,A Micro Lesson on when to believe the experts versus smart citizens,7
+136,A Micro Lesson on Dog Psychology,10
+137,Micro Lesson on making yourself feel better,9
+138,A Micro Lesson on how to learn something effectively,9
+139,A Micro Lesson on dressing for outdoor dining during a pandemic,13
+140,Micro Lesson on three efficiency hacks,14
+141,A Micro Lesson on what I call compound learning,2
+142,A Micro Lesson on words creating reality,1
+143,A Micro Lesson on how to explain things clearly,11
+144,A Micro Lesson on finding your path to meaning and happiness,4
+145,Episode 2219 Micro-Lesson EXCERPT: U.S. Political System,7
+146,A Micro Lesson (15 minutes) on how to become a cartoonist,14
+147,"Episode 2241 EXTRACT - Beyond Intersectionality, Micro Lesson",3
+148,A Micro Lesson on using the 80-20 rule to build your Talent Stack,6
+149,A Micro Lesson on drawing a cartoon/comic fac,14
+150,"A Micro Lesson on drawing bodies, shading and perspective",14
+151,Whiteboard EXCERPT From Episode 2258,7
+152,Micro Lesson on how to win a coin toss every time,5
+153,A Micro Lesson on how to decide a new line of business will work,6
+154,A Micro Lesson on The Great Filters of reality,3
+155,A Micro Lesson on programming your brain via word choice,4
+156,A Micro Lesson on using persuasion to minimize the coming George Floyd riots,8
+157,Micro Lesson -- Summoning The Executive,9
+158,A Micro Lesson on reframing,13
+159,A Micro Lesson on back-scratching and touch,10
+160,Learn how to moonwalk (badly),2
+161,A Micro Lesson on using failure to predict the future,2
+162,A Micro Lesson on Happiness using the Mating Filter,4
+163,A Micro Lesson in movie script construct,2
+164,A Public Service Announcement about Fake News,7
+165,A Micro Lesson on dealing with criticism,1
+166,A Micro Lesson on self-esteem and The Impostor Syndrome,4
+167,The Six Levels of Political Awareness,11
+168,How to Write Humor,1
+169,A Micro Lesson on How to be Non-Judgemental,3
+170,Micro Lesson on Manners -- a reframe,9
+171,Micro Lesson on reframing exercise,13
+172,Micro Lesson on eye contact,11
+173,Micro Lesson on how to end a conversation,11
+174,Micro Lesson on SPECIFICALLY how to make eye contact,11
+175,A Micro Lesson on How to Tell a Story,11
+176,Micro Lesson on willpower versus systems,2
+177,Micro Lesson on The Blob running the country,7
+178,Personal Finance Micro Lesson,11
+179,A Micro Lesson on reprogramming your food preferences,3
+180,Micro Lesson on Mind-reading Persuasion,8
+181,Micro Lesson on free will versus authoring,2
+182,A Micro Lesson on writing a good Tweet (or anything else),8
+183,Micro Lesson on mental health,9
+184,How to pet a cat,10
+185,Micro Lesson on how weird you are,3
+186,Micro Lesson on the Great Filters of life,2
+187,Episode 965 Scott Adams,1
+188,"Micro Lesson on how to ""Get Out!"" of your head",1
+189,Micro Lesson on Identity persuasion,8
+190,A Micro Lesson on reciprocity as human source code,3
+191,Affirmations Episode 971 Scott Adams,4
+192,Micro Lesson on weed,10
+193,Micro Lesson on Underdoing Exercise,13
+194,"A micro lesson on optimizing your ""story of self""",4
+195,Micro Lesson on fake equals real,4
+196,A Micro Lesson on Proper Voice Technique,8
+197,Micro Lesson on single parents and poverty,0
+198,Episode 975 Scott Adams,2
+199,A Micro Lesson on identifying winners versus losers,3
+200,How to video conference or livestream right,6
+201,Micro Lesson on Judging Yourself by your Future,4
+202,How to create a Dilbert comic,2
+203,A Micro Lesson on How to Smoke Marijuana,10
+204,Micro Lesson on Persuasion Timing,8
+205,Micro Lesson on being smart about America’s debt,11
+206,Extracted From Episode 983,2
+207,Micro Lesson From Episode 985,6
+208,Micro Lesson on brainwashing and politics,8
+209,Micro Lesson on the human machine,9
+210,Micro Lesson on the persuasion ethics stack,8
+211,How to clean a bong,12
+212,How to talk to strangers,11
+213,Micro Lesson (Extract from Ep. 989),1
+214,A Micro Lesson on how to get rich,2
+215,"Micro Lesson on ""I get to...""",13
+216,A micro lesson on Design,14
+217,Episode 995 Micro Lesson,6
+218,How to draw,14
+219,A Micro Lesson on turning a bad day to your advantage,9
+220,Micro Lesson on Media Training,11
+221,Micro Lesson on curing loneliness,9
+222,Episode 1003 Micro Lesson - Getting a Raise,6
+223,A Micro Lesson on spotting Cognitive Dissonance,1
+224,A Micro Lesson on the Rule of Twelve for building a talent stack,6
+225,A Micro Lesson on pets as an obstacle to success,10
+226,A Micro Lesson from behind the persuasion curtain,8
+227,A Micro Lesson on the Psychology of exercising,13
+228,A Micro Lesson on cryptocurrencies (for beginners),11
+229,A micro lesson on persuasion,3
+230,A Micro Lesson on Illusions that block success,6
+231,My Covid Shot risk analysis,0
+232,A Micro Lesson on being careful what you measure,0
+233,A Micro Lesson on not losing your stuff in the house,14
+234,A Micro Lesson on fixing anything with duct tape,14
+235,A Micro Lesson on how to make friends,11
+236,A Micro Lesson on picking the right tools for the job,14
+237,A Micro Lesson on learning what causes your moods,9
+238,When systems collide,14
+239,A Micro Lesson on Pulling it all Together for success,6
+240,A micro lesson on how to worry less about the weekly “crisis”,0
+241,A Micro Lesson on how Hypnotists read bodies,5
+242,A Micro Lesson on using selfishness to predict the future,4
+243,A Micro Lesson on your importance,6
+244,A Micro Lesson on Levels of Awareness,8
+245,A Micro Lesson on calling your cat,10
+246,A Micro Lesson on determining your human value,4
+247,Micro Lesson on managing experts,2
+248,A Micro Lesson on fun versus efficiency,12
+249,A micro lesson on how to deal with false accusations,11
+250,A Micro Lesson on voice variability,8
+251,Micro lesson on saving your relationship from TDS,8
+252,A Micro Lesson on when to believe the experts versus smart citizens,6
+253,A Micro Lesson on setting up a livestream studio,6
+254,A Micro Lesson on maximizing your creativity,2
+255,"A Micro Lesson on managing your energy, not your time",13
+256,"A Micro Lesson on how ""learning"" can be ten times better",6
+257,A Micro Lesson on managing your ego,4
+258,Fitness Micro Lesson,13
+259,A Micro Lesson on creating assets from nothing,2
+260,A Micro Lesson on finding your advantage,6

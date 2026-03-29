@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 
+import { AppErrorBoundary } from './components/layout/AppErrorBoundary'
 import { AppLayout } from './components/layout/AppLayout'
 import { normalizeLessons } from './data/normalize'
 import { useTopicBrowserStore } from './store/useTopicBrowserStore'
@@ -8,6 +9,7 @@ import type { LessonRaw } from './types'
 export default function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState<'videos' | 'paths'>('paths')
   const hydrate = useTopicBrowserStore((s) => s.hydrate)
 
   useEffect(() => {
@@ -53,5 +55,13 @@ export default function App() {
     )
   }
 
-  return <AppLayout loading={loading} />
+  return (
+    <AppErrorBoundary>
+      <AppLayout
+        loading={loading}
+        activeTab={activeTab}
+        onTabChange={setActiveTab}
+      />
+    </AppErrorBoundary>
+  )
 }

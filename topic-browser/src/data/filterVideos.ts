@@ -1,5 +1,7 @@
 import type { Video } from '../types'
 
+import { videoMatchesInterestBuckets } from './interestBuckets'
+
 /** Mirrors legacy `lessonMatches` in `web/index.html` (substring tokens in haystack). */
 export function lessonMatchesQuery(q: string, video: Video): boolean {
   const query = q.trim().toLowerCase()
@@ -9,7 +11,7 @@ export function lessonMatchesQuery(q: string, video: Video): boolean {
     video.core_lesson,
     video.summary_text,
     ...(video.key_concepts || []),
-    ...video.topics.map((t) => t.name),
+    ...(video.topics ?? []).map((t) => t.name),
     video.cluster?.name ?? '',
   ]
     .join(' ')
@@ -19,13 +21,19 @@ export function lessonMatchesQuery(q: string, video: Video): boolean {
 
 export function filterVideos(
   videos: Video[],
-  selectedTopicId: string | null,
+  selectedTopicIds: string[],
+  interestBucketSlugs: string[] | null,
   selectedClusterId: number | null,
   searchQuery: string,
 ): Video[] {
   return videos.filter((v) => {
-    if (selectedTopicId != null) {
-      if (!v.topics.some((t) => t.id === selectedTopicId)) return false
+    if (interestBucketSlugs && interestBucketSlugs.length > 0) {
+      if (!videoMatchesInterestBuckets(v.topic_buckets, interestBucketSlugs))
+        return false
+    } else if (selectedTopicIds.length > 0) {
+      const videoTopicIds = new Set((v.topics ?? []).map((t) => t.id))
+      if (!selectedTopicIds.some((id) => videoTopicIds.has(id)))
+        return false
     }
     if (selectedClusterId != null) {
       if (v.cluster?.id !== selectedClusterId) return false
