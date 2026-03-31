@@ -1,29 +1,79 @@
 :root {
-  --color-bg: #121212;
-  --color-bg-elevated: #181818;
-  --color-text: #e0e0e0;
-  --color-text-secondary: #b0b0b0;
-  --color-border: #333;
-  --color-accent-orange: #ff8a3d;
-  --color-accent-purple: #9c6bff;
-  --color-link: #ffb380;
-  --color-link-hover: #ffc9a3;
-  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.4);
-  --shadow-hero: 0 12px 32px rgba(0, 0, 0, 0.45);
+  /*
+   * Warm “ember & parchment” hierarchy — avoid pure white on pure black.
+   * Level 1: primary reading text (cream)
+   * Level 2: supporting / descriptions
+   * Level 3: meta, hints, disabled-feel
+   */
+
+  --color-bg: #141210;
+  --color-bg-deep: #0e0c0b;
+  --color-bg-elevated: #1f1b17;
+  --color-bg-input: #181410;
+  --color-bg-header: #1a1714;
+  --color-bg-surface: #232018;
+  --color-lesson-card: #252118;
+  --color-lesson-card-hover: #2d281f;
+  --color-bg-theme-strip: #1c1814;
+
+  --color-text: #e4dcd2;
+  --color-text-secondary: #a89888;
+  --color-text-muted: #7d6f63;
+  --color-text-faint: #6a5d52;
+
+  --color-border: rgba(200, 165, 130, 0.14);
+  --color-border-soft: rgba(200, 165, 130, 0.09);
+  --color-border-accent: rgba(232, 160, 102, 0.35);
+
+  /* Accents — warm coral / amber, not neon */
+  --color-accent-orange: #e8a066;
+  --color-accent-orange-soft: rgba(232, 160, 102, 0.14);
+  --color-accent-purple: #b090d8;
+  --color-link: #e8b896;
+  --color-link-hover: #f2d4b8;
+
+  --shadow-lesson-card: 0 2px 12px rgba(8, 5, 3, 0.45);
+  --shadow-card: 0 8px 28px rgba(8, 5, 3, 0.42);
+  --shadow-hero: 0 12px 32px rgba(8, 5, 3, 0.4);
+
   --radius-card: 8px;
   --radius-hero: 8px;
+
+  /* 4/8px scale */
+  --space-0: 4px;
   --space-1: 8px;
   --space-2: 16px;
   --space-3: 24px;
   --space-4: 32px;
   --space-5: 40px;
+  --space-6: 48px;
+
   --font-body:
     -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   --font-display: 'Fredoka', var(--font-body);
+
   --max-content: 1280px;
   --pad-x-mobile: 24px;
   --pad-x-desktop: 40px;
   --library-scroll-max: 560px;
+  --lesson-thumb-w: 128px;
+
+  /* Subtle page depth (body) */
+  --bg-page-gradient: linear-gradient(
+    165deg,
+    #1a1714 0%,
+    #141210 38%,
+    #100e0c 100%
+  );
+
+  /* Lesson themes strip: layered wash + texture applied in App.css */
+  --theme-strip-layers: radial-gradient(
+      ellipse 130% 90% at 50% -15%,
+      rgba(232, 160, 102, 0.09) 0%,
+      transparent 58%
+    ),
+    radial-gradient(ellipse 70% 55% at 100% 100%, rgba(160, 120, 200, 0.07) 0%, transparent 50%),
+    linear-gradient(175deg, rgba(40, 34, 28, 0.95) 0%, rgba(22, 19, 16, 0.98) 100%);
 }
 
 @media (prefers-reduced-motion: reduce) {

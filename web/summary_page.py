@@ -37,7 +37,8 @@ def export_data_js(db_path: str) -> dict:
         SELECT t.id AS transcript_id, v.url, v.title, v.summary_text, v.core_lesson,
                v.key_concepts, v.difficulty, v.primary_topics, v.prerequisites,
                v.builds_toward, v.cluster_id, v.cluster_name, v.wordcloud_path,
-               v.topic_buckets, v.is_persuasion_focused
+               v.topic_buckets, v.is_persuasion_focused,
+               v.duration_seconds, v.publish_date, v.downloaded_at
         FROM transcripts t
         INNER JOIN videos v ON v.url = t.video_url
         ORDER BY t.id
@@ -64,6 +65,9 @@ def export_data_js(db_path: str) -> dict:
                 "is_persuasion_focused": bool(row["is_persuasion_focused"])
                 if row["is_persuasion_focused"] is not None
                 else None,
+                "duration_seconds": row["duration_seconds"],
+                "publish_date": row["publish_date"] or "",
+                "downloaded_at": row["downloaded_at"] or "",
             }
         )
     conn.close()

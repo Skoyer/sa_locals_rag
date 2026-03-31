@@ -248,6 +248,42 @@ def insert_video(
     conn.commit()
 
 
+def set_video_duration_seconds(
+    conn: sqlite3.Connection, video_url: str, seconds: int
+) -> None:
+    """Set videos.duration_seconds for a URL."""
+    conn.execute(
+        "UPDATE videos SET duration_seconds = ? WHERE url = ?",
+        (seconds, video_url),
+    )
+    conn.commit()
+
+
+def set_video_duration_from_file(
+    conn: sqlite3.Connection,
+    video_url: str,
+    file_path: str | None,
+) -> bool:
+    """Populate duration_seconds from a local media file via ffprobe. Returns True if set."""
+    if not file_path:
+        return False
+    from pathlib import Path
+
+    from media_duration import ffprobe_duration_seconds
+
+    p = Path(file_path)
+    if not p.is_file():
+        root = Path(__file__).resolve().parent
+        p = (root / file_path).resolve()
+    if not p.is_file():
+        return False
+    sec = ffprobe_duration_seconds(p)
+    if sec is None:
+        return False
+    set_video_duration_seconds(conn, video_url, sec)
+    return True
+
+
 def insert_transcript(
     conn: sqlite3.Connection,
     video_url: str,

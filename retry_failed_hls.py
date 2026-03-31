@@ -96,6 +96,7 @@ def main() -> int:
                     with yt_dlp.YoutubeDL(opts) as ydl:
                         ydl.download([stream_url])
                     db.insert_video(conn, url, title or "", description or "", "downloaded", file_path=out_path)
+                    db.set_video_duration_from_file(conn, url, out_path)
                     log(f" -> SUCCESS (HLS yt-dlp): {out_path}")
                     continue
                 except Exception as e:
@@ -103,6 +104,7 @@ def main() -> int:
 
                 if locals_fetcher.download_locals_hls_with_ffmpeg(stream_url, out_path, cookies_path):
                     db.insert_video(conn, url, title or "", description or "", "downloaded", file_path=out_path)
+                    db.set_video_duration_from_file(conn, url, out_path)
                     log(f" -> SUCCESS (HLS ffmpeg): {out_path}")
                 else:
                     db.insert_video(conn, url, title or "", description or "", "failed: HLS download", file_path=out_path)

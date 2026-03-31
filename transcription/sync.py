@@ -70,6 +70,7 @@ def sync_orphan_downloads(
             status="downloaded",
             file_path=stored_path,
         )
+        db.set_video_duration_from_file(conn, url, stored_path)
         known.add(key)
         added += 1
         logger.info("Registered orphan file as %s (%s)", url, stored_path)

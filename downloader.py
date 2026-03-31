@@ -134,6 +134,7 @@ def _download_one_locals(
                 with yt_dlp.YoutubeDL(opts) as ydl:
                     ydl.download([stream_url])
                 db.insert_video(conn, video_url, title, description, "downloaded", file_path=out_path)
+                db.set_video_duration_from_file(conn, video_url, out_path)
                 _log(f"SUCCESS: Downloaded (HLS, yt-dlp) and saved to DB: {title or video_url}")
                 _dbg("H1", "candidate_success_hls", {"url": video_url, "file_path": out_path})
                 return
@@ -141,6 +142,7 @@ def _download_one_locals(
                 _log(f"yt-dlp HLS failed: {e}; trying ffmpeg...")
             if locals_fetcher.download_locals_hls_with_ffmpeg(stream_url, out_path, cookies_path):
                 db.insert_video(conn, video_url, title, description, "downloaded", file_path=out_path)
+                db.set_video_duration_from_file(conn, video_url, out_path)
                 _log(f"SUCCESS: Downloaded (HLS, ffmpeg) and saved to DB: {title or video_url}")
                 _dbg("H1", "candidate_success_ffmpeg", {"url": video_url, "file_path": out_path})
                 return
@@ -166,6 +168,7 @@ def _download_one_locals(
                 with yt_dlp.YoutubeDL(opts) as ydl:
                     ydl.download([stream_url])
                 db.insert_video(conn, video_url, title, description, "downloaded", file_path=out_path)
+                db.set_video_duration_from_file(conn, video_url, out_path)
                 _log(f"SUCCESS: Downloaded (direct, yt-dlp) to {out_path} and saved to DB.")
                 _dbg("H1", "candidate_success_direct_ytdlp", {"url": video_url, "file_path": out_path})
                 return
@@ -173,6 +176,7 @@ def _download_one_locals(
                 _log(f"yt-dlp direct stream failed: {e}; trying requests...")
             if locals_fetcher.download_locals_stream_with_requests(stream_url, out_path, cookies_path):
                 db.insert_video(conn, video_url, title, description, "downloaded", file_path=out_path)
+                db.set_video_duration_from_file(conn, video_url, out_path)
                 _log(f"SUCCESS: Downloaded (direct, requests) to {out_path} and saved to DB.")
                 _dbg("H1", "candidate_success_direct_requests", {"url": video_url, "file_path": out_path})
                 return

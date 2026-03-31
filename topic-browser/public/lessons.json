@@ -28,7 +28,10 @@
       "persuasion",
       "self-programming"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 316,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T20:00:13.682937+00:00"
   },
   {
     "transcript_id": 2,
@@ -59,7 +62,10 @@
       "persuasion",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 331,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:53:59.600529+00:00"
   },
   {
     "transcript_id": 3,
@@ -90,7 +96,10 @@
       "negotiation",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 244,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:47:49.291827+00:00"
   },
   {
     "transcript_id": 4,
@@ -121,7 +130,10 @@
       "decision_making",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 236,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:04:47.624537+00:00"
   },
   {
     "transcript_id": 5,
@@ -152,7 +164,10 @@
       "personal_brand",
       "identity"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 315,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:58:20.601296+00:00"
   },
   {
     "transcript_id": 6,
@@ -178,7 +193,10 @@
       "self-programming",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 140,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:41:35.373431+00:00"
   },
   {
     "transcript_id": 7,
@@ -211,7 +229,10 @@
       "personal_brand",
       "influence"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 362,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:51:55.451500+00:00"
   },
   {
     "transcript_id": 8,
@@ -238,7 +259,10 @@
       "humor",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 95,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:35:29.461846+00:00"
   },
   {
     "transcript_id": 9,
@@ -268,7 +292,10 @@
       "career",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 234,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:29:23.232065+00:00"
   },
   {
     "transcript_id": 10,
@@ -299,7 +326,10 @@
       "persuasion",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 404,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:39:54.393670+00:00"
   },
   {
     "transcript_id": 11,
@@ -330,7 +360,10 @@
       "self-programming",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 486,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:33:38.940764+00:00"
   },
   {
     "transcript_id": 12,
@@ -361,7 +394,10 @@
       "persuasion",
       "politics"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 349,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:27:20.031942+00:00"
   },
   {
     "transcript_id": 13,
@@ -389,7 +425,10 @@
       "personal_brand",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 356,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:23:14.963910+00:00"
   },
   {
     "transcript_id": 14,
@@ -420,7 +459,10 @@
       "career",
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 172,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:17:03.782961+00:00"
   },
   {
     "transcript_id": 15,
@@ -448,7 +490,10 @@
       "hypnosis",
       "negotiation"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 265,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:21:06.138915+00:00"
   },
   {
     "transcript_id": 16,
@@ -479,7 +524,10 @@
       "media_criticism",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 393,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:14:54.750829+00:00"
   },
   {
     "transcript_id": 17,
@@ -509,7 +557,10 @@
       "learning",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 355,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:10:57.443401+00:00"
   },
   {
     "transcript_id": 18,
@@ -539,7 +590,10 @@
       "persuasion",
       "media_criticism"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 260,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:08:38.679764+00:00"
   },
   {
     "transcript_id": 19,
@@ -570,7 +624,10 @@
       "career",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 471,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T19:04:47.060855+00:00"
   },
   {
     "transcript_id": 20,
@@ -600,7 +657,10 @@
       "negotiation",
       "personal_brand"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 340,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T12:02:28.974319+00:00"
   },
   {
     "transcript_id": 21,
@@ -625,7 +685,10 @@
     "topic_buckets": [
       "productivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 732,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:56:15.540791+00:00"
   },
   {
     "transcript_id": 22,
@@ -651,7 +714,10 @@
       "usability",
       "user_experience"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 260,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:49:48.757388+00:00"
   },
   {
     "transcript_id": 23,
@@ -681,7 +747,10 @@
       "subjectivity",
       "objectivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 266,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:58:35.252944+00:00"
   },
   {
     "transcript_id": 24,
@@ -713,7 +782,10 @@
       "persuasion",
       "salesmanship"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 104,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:43:33.150259+00:00"
   },
   {
     "transcript_id": 25,
@@ -743,7 +815,10 @@
       "luck",
       "energy"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 314,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:52:22.236377+00:00"
   },
   {
     "transcript_id": 26,
@@ -769,7 +844,10 @@
       "risk_management",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 218,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:46:12.065216+00:00"
   },
   {
     "transcript_id": 27,
@@ -798,7 +876,10 @@
       "prediction",
       "energy_filter"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 371,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:40:04.702389+00:00"
   },
   {
     "transcript_id": 28,
@@ -827,7 +908,10 @@
       "chemistry",
       "emotions"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 144,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:33:53.851126+00:00"
   },
   {
     "transcript_id": 29,
@@ -855,7 +939,10 @@
       "imagination",
       "future_outcomes"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 312,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:37:25.470103+00:00"
   },
   {
     "transcript_id": 30,
@@ -886,7 +973,10 @@
       "friendship",
       "networking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 224,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:31:13.402598+00:00"
   },
   {
     "transcript_id": 31,
@@ -916,7 +1006,10 @@
       "self-programming",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 85,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:27:42.988883+00:00"
   },
   {
     "transcript_id": 32,
@@ -949,7 +1042,10 @@
       "humor",
       "media_criticism"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 364,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:25:11.890931+00:00"
   },
   {
     "transcript_id": 33,
@@ -978,7 +1074,10 @@
       "personal_brand",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 208,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:18:57.555535+00:00"
   },
   {
     "transcript_id": 34,
@@ -1009,7 +1108,10 @@
       "negotiation",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 225,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:12:47.505169+00:00"
   },
   {
     "transcript_id": 35,
@@ -1038,7 +1140,10 @@
       "decision_making",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 363,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:06:37.422575+00:00"
   },
   {
     "transcript_id": 36,
@@ -1069,7 +1174,10 @@
       "persuasion",
       "identity"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 189,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:21:36.972515+00:00"
   },
   {
     "transcript_id": 37,
@@ -1101,7 +1209,10 @@
       "media_criticism",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 219,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T11:00:22.206328+00:00"
   },
   {
     "transcript_id": 38,
@@ -1131,7 +1242,10 @@
       "personal_brand",
       "trust"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 77,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:15:30.970903+00:00"
   },
   {
     "transcript_id": 39,
@@ -1159,7 +1273,10 @@
       "systems_thinking",
       "energy_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 124,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:54:11.401898+00:00"
   },
   {
     "transcript_id": 40,
@@ -1186,7 +1303,10 @@
       "career",
       "time_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 108,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:09:23.258827+00:00"
   },
   {
     "transcript_id": 41,
@@ -1220,7 +1340,10 @@
       "persuasion",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 566,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T18:03:15.360152+00:00"
   },
   {
     "transcript_id": 42,
@@ -1250,7 +1373,10 @@
       "politics",
       "negotiation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 25,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:57:00.349173+00:00"
   },
   {
     "transcript_id": 43,
@@ -1281,7 +1407,10 @@
       "creativity",
       "innovation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 262,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:48:04.106089+00:00"
   },
   {
     "transcript_id": 44,
@@ -1308,7 +1437,10 @@
       "career",
       "business"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 402,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:41:51.099351+00:00"
   },
   {
     "transcript_id": 45,
@@ -1344,7 +1476,10 @@
       "self-programming",
       "productivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 333,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:50:55.320228+00:00"
   },
   {
     "transcript_id": 46,
@@ -1371,7 +1506,10 @@
       "media_criticism",
       "technology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 158,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:35:35.545377+00:00"
   },
   {
     "transcript_id": 47,
@@ -1401,7 +1539,10 @@
       "persuasion",
       "negotiation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 92,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:29:29.256041+00:00"
   },
   {
     "transcript_id": 48,
@@ -1429,7 +1570,10 @@
       "systems_thinking",
       "productivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 151,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:44:46.142793+00:00"
   },
   {
     "transcript_id": 49,
@@ -1458,7 +1602,10 @@
       "motivation",
       "team_building"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 289,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:23:23.135939+00:00"
   },
   {
     "transcript_id": 50,
@@ -1488,7 +1635,10 @@
       "media_criticism",
       "production"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 171,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:17:09.387722+00:00"
   },
   {
     "transcript_id": 51,
@@ -1519,7 +1669,10 @@
       "self-programming",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 193,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:38:29.865819+00:00"
   },
   {
     "transcript_id": 52,
@@ -1549,7 +1702,10 @@
       "cognitive_bias",
       "decision_making"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 646,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:11:01.394851+00:00"
   },
   {
     "transcript_id": 53,
@@ -1579,7 +1735,10 @@
     "topic_buckets": [
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 356,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T10:04:38.879306+00:00"
   },
   {
     "transcript_id": 54,
@@ -1611,7 +1770,10 @@
       "stress_management",
       "persuasion"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 788,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:32:17.266673+00:00"
   },
   {
     "transcript_id": 55,
@@ -1642,7 +1804,10 @@
       "critical_thinking",
       "self-programming"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 220,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:58:37.014023+00:00"
   },
   {
     "transcript_id": 56,
@@ -1672,7 +1837,10 @@
       "negotiation",
       "personal_brand"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 145,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:52:27.056691+00:00"
   },
   {
     "transcript_id": 57,
@@ -1699,7 +1867,10 @@
       "appreciation",
       "lifestyle"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 203,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:46:20.911001+00:00"
   },
   {
     "transcript_id": 58,
@@ -1733,7 +1904,10 @@
       "hypnosis",
       "diet_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 459,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:25:57.913275+00:00"
   },
   {
     "transcript_id": 59,
@@ -1759,7 +1933,10 @@
       "grief_coping",
       "substance_abuse"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 402,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:19:46.468169+00:00"
   },
   {
     "transcript_id": 60,
@@ -1790,7 +1967,10 @@
       "persuasion",
       "communication"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 131,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:40:10.995539+00:00"
   },
   {
     "transcript_id": 61,
@@ -1820,7 +2000,10 @@
       "persuasion",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 84,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:34:03.208417+00:00"
   },
   {
     "transcript_id": 62,
@@ -1853,7 +2036,10 @@
       "personal_brand",
       "media_criticism"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 195,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:13:36.037781+00:00"
   },
   {
     "transcript_id": 63,
@@ -1891,7 +2077,10 @@
       "self-programming",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 152,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:07:30.298572+00:00"
   },
   {
     "transcript_id": 64,
@@ -1922,7 +2111,10 @@
       "negotiation",
       "personal_brand"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 188,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T17:01:22.713241+00:00"
   },
   {
     "transcript_id": 65,
@@ -1953,7 +2145,10 @@
       "hypnosis",
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 332,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:55:07.720383+00:00"
   },
   {
     "transcript_id": 66,
@@ -1985,7 +2180,10 @@
       "persuasion",
       "humor"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 394,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:48:59.561878+00:00"
   },
   {
     "transcript_id": 67,
@@ -2016,7 +2214,10 @@
       "cognitive_bias",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 275,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:42:47.212718+00:00"
   },
   {
     "transcript_id": 68,
@@ -2046,7 +2247,10 @@
       "imagination",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 275,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:36:39.376797+00:00"
   },
   {
     "transcript_id": 69,
@@ -2074,7 +2278,10 @@
       "self-programming",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 183,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:27:56.382814+00:00"
   },
   {
     "transcript_id": 70,
@@ -2102,7 +2309,10 @@
       "gamesmanship",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 166,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:30:31.587449+00:00"
   },
   {
     "transcript_id": 71,
@@ -2131,7 +2341,10 @@
       "self-programming",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 176,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:24:20.723562+00:00"
   },
   {
     "transcript_id": 72,
@@ -2157,7 +2370,10 @@
       "efficiency",
       "time_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 81,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:18:12.178651+00:00"
   },
   {
     "transcript_id": 73,
@@ -2187,7 +2403,10 @@
       "creativity",
       "motivation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 256,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:21:48.631255+00:00"
   },
   {
     "transcript_id": 74,
@@ -2218,7 +2437,10 @@
       "personal_growth",
       "action"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 186,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:12:06.568814+00:00"
   },
   {
     "transcript_id": 75,
@@ -2248,7 +2470,10 @@
       "credibility",
       "expertise"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 1576,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T16:05:57.020202+00:00"
   },
   {
     "transcript_id": 76,
@@ -2281,7 +2506,10 @@
       "simplification",
       "productivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 214,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:59:32.878987+00:00"
   },
   {
     "transcript_id": 77,
@@ -2315,7 +2543,10 @@
       "audience_building",
       "passion"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 703,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:15:37.318813+00:00"
   },
   {
     "transcript_id": 78,
@@ -2347,7 +2578,10 @@
       "career_advice",
       "location"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 192,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:53:24.741046+00:00"
   },
   {
     "transcript_id": 79,
@@ -2379,7 +2613,10 @@
       "hypnosis",
       "persuasion"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 1942,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:47:17.369102+00:00"
   },
   {
     "transcript_id": 80,
@@ -2411,7 +2648,10 @@
       "self-perception",
       "love"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 185,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:40:50.194094+00:00"
   },
   {
     "transcript_id": 81,
@@ -2441,7 +2681,10 @@
       "persuasion",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 306,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T21:25:32.537236+00:00"
   },
   {
     "transcript_id": 82,
@@ -2474,7 +2717,10 @@
       "persuasion",
       "humor"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 368,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:09:18.630525+00:00"
   },
   {
     "transcript_id": 83,
@@ -2505,7 +2751,10 @@
       "personal_brand",
       "decision_making"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 372,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T09:03:03.265697+00:00"
   },
   {
     "transcript_id": 84,
@@ -2531,7 +2780,10 @@
       "systems_thinking",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 127,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:56:45.588333+00:00"
   },
   {
     "transcript_id": 85,
@@ -2562,7 +2814,10 @@
       "personal_brand",
       "nutrition"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 61,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:28:35.882514+00:00"
   },
   {
     "transcript_id": 86,
@@ -2592,7 +2847,10 @@
       "persuasion",
       "hypnosis"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 497,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:50:35.245175+00:00"
   },
   {
     "transcript_id": 87,
@@ -2622,7 +2880,10 @@
       "self-programming",
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 706,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:22:27.749015+00:00"
   },
   {
     "transcript_id": 88,
@@ -2654,7 +2915,10 @@
       "networking",
       "resource_attraction"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 184,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:16:09.002707+00:00"
   },
   {
     "transcript_id": 89,
@@ -2686,7 +2950,10 @@
       "career",
       "resource_attraction"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 184,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:10:02.761200+00:00"
   },
   {
     "transcript_id": 90,
@@ -2716,7 +2983,10 @@
       "decision_making",
       "opportunity_seeking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 661,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:44:13.867326+00:00"
   },
   {
     "transcript_id": 91,
@@ -2747,7 +3017,10 @@
       "self-programming",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 292,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T15:03:57.964030+00:00"
   },
   {
     "transcript_id": 92,
@@ -2778,7 +3051,10 @@
       "career",
       "negotiation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 322,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:37:50.226205+00:00"
   },
   {
     "transcript_id": 93,
@@ -2804,7 +3080,10 @@
       "personal_brand",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 59,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:57:45.332703+00:00"
   },
   {
     "transcript_id": 94,
@@ -2832,7 +3111,10 @@
       "media_criticism",
       "politics"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 274,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:51:30.667273+00:00"
   },
   {
     "transcript_id": 95,
@@ -2859,7 +3141,10 @@
       "health",
       "convenience"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 97,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:45:22.004266+00:00"
   },
   {
     "transcript_id": 96,
@@ -2889,7 +3174,10 @@
       "stress_reduction",
       "meditation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 289,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:31:36.820692+00:00"
   },
   {
     "transcript_id": 97,
@@ -2919,7 +3207,10 @@
       "magic",
       "distracting_techniques"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 210,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:39:15.609900+00:00"
   },
   {
     "transcript_id": 98,
@@ -2950,7 +3241,10 @@
       "motivation",
       "productivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 353,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:25:24.314638+00:00"
   },
   {
     "transcript_id": 99,
@@ -2981,7 +3275,10 @@
       "research_methods",
       "bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 147,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:32:54.494486+00:00"
   },
   {
     "transcript_id": 100,
@@ -3009,7 +3306,10 @@
       "economics",
       "military_strategy"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 1120,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:19:09.195952+00:00"
   },
   {
     "transcript_id": 101,
@@ -3039,7 +3339,10 @@
       "self-programming",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 368,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:12:27.948423+00:00"
   },
   {
     "transcript_id": 102,
@@ -3071,7 +3374,10 @@
       "personal_brand",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 175,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:26:47.388565+00:00"
   },
   {
     "transcript_id": 103,
@@ -3103,7 +3409,10 @@
       "career",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 91,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:20:39.859023+00:00"
   },
   {
     "transcript_id": 104,
@@ -3129,7 +3438,10 @@
       "media_criticism",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 716,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T08:06:13.413116+00:00"
   },
   {
     "transcript_id": 105,
@@ -3159,7 +3471,10 @@
       "hypnosis",
       "persuasion"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 600,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:59:43.340396+00:00"
   },
   {
     "transcript_id": 106,
@@ -3189,7 +3504,10 @@
       "self-programming",
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 130,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:14:33.818933+00:00"
   },
   {
     "transcript_id": 107,
@@ -3219,7 +3537,10 @@
       "willpower",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 371,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:53:22.120304+00:00"
   },
   {
     "transcript_id": 108,
@@ -3249,7 +3570,10 @@
       "practice",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 160,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:08:29.614000+00:00"
   },
   {
     "transcript_id": 109,
@@ -3279,7 +3603,10 @@
       "practice",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 89,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T14:02:15.265952+00:00"
   },
   {
     "transcript_id": 110,
@@ -3309,7 +3636,10 @@
       "media_criticism",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 416,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:47:05.827130+00:00"
   },
   {
     "transcript_id": 111,
@@ -3339,7 +3669,10 @@
     "topic_buckets": [
       "self-programming"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 303,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:40:50.397958+00:00"
   },
   {
     "transcript_id": 112,
@@ -3367,7 +3700,10 @@
       "politics",
       "economics"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 120,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T13:56:14.544869+00:00"
   },
   {
     "transcript_id": 113,
@@ -3402,7 +3738,10 @@
     "topic_buckets": [
       "persuasion"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 403,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T13:50:05.280806+00:00"
   },
   {
     "transcript_id": 114,
@@ -3431,7 +3770,10 @@
     "topic_buckets": [
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 565,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T13:43:30.425898+00:00"
   },
   {
     "transcript_id": 115,
@@ -3459,7 +3801,10 @@
     "topic_buckets": [
       "decision_making"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 365,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T13:22:46.142436+00:00"
   },
   {
     "transcript_id": 116,
@@ -3484,7 +3829,10 @@
     "topic_buckets": [
       "writing"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 667,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:34:36.269709+00:00"
   },
   {
     "transcript_id": 117,
@@ -3511,7 +3859,10 @@
       "technology",
       "artificial_intelligence"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 165,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T13:06:10.016774+00:00"
   },
   {
     "transcript_id": 118,
@@ -3542,7 +3893,10 @@
     "topic_buckets": [
       "negotiation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 190,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T12:49:54.814933+00:00"
   },
   {
     "transcript_id": 119,
@@ -3568,7 +3922,10 @@
     "topic_buckets": [
       "self-programming"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 133,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T12:33:36.852313+00:00"
   },
   {
     "transcript_id": 120,
@@ -3598,7 +3955,10 @@
     "topic_buckets": [
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 65,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T12:17:22.721012+00:00"
   },
   {
     "transcript_id": 121,
@@ -3626,7 +3986,10 @@
       "self-programming",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 130,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T11:58:26.816023+00:00"
   },
   {
     "transcript_id": 122,
@@ -3657,7 +4020,10 @@
       "persuasion",
       "personal_brand"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 621,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T11:42:09.723556+00:00"
   },
   {
     "transcript_id": 123,
@@ -3688,7 +4054,10 @@
       "hypnosis",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 62,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T11:25:21.932096+00:00"
   },
   {
     "transcript_id": 124,
@@ -3719,7 +4088,10 @@
       "dietary_planning",
       "personal_health"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 125,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T11:09:12.629904+00:00"
   },
   {
     "transcript_id": 125,
@@ -3751,7 +4123,10 @@
       "negotiation",
       "personal_security"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 95,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T10:52:59.014356+00:00"
   },
   {
     "transcript_id": 126,
@@ -3782,7 +4157,10 @@
       "problem_solving",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 88,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T10:36:47.126588+00:00"
   },
   {
     "transcript_id": 127,
@@ -3814,7 +4192,10 @@
       "identity",
       "self-improvement"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 74,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T10:20:35.149761+00:00"
   },
   {
     "transcript_id": 128,
@@ -3842,7 +4223,10 @@
       "branding",
       "personal_growth"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 566,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:28:02.700378+00:00"
   },
   {
     "transcript_id": 129,
@@ -3877,7 +4261,10 @@
       "learning_environment",
       "creativity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 356,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:21:30.517229+00:00"
   },
   {
     "transcript_id": 130,
@@ -3904,7 +4291,10 @@
       "media_criticism",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 390,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:15:08.545798+00:00"
   },
   {
     "transcript_id": 131,
@@ -3934,7 +4324,10 @@
       "persuasion",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 58,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T10:04:23.286375+00:00"
   },
   {
     "transcript_id": 132,
@@ -3962,7 +4355,10 @@
       "finance",
       "investment"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 615,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:08:43.739262+00:00"
   },
   {
     "transcript_id": 133,
@@ -3993,7 +4389,10 @@
       "self-help",
       "relationship_building"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 299,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T07:02:13.780689+00:00"
   },
   {
     "transcript_id": 134,
@@ -4021,7 +4420,10 @@
       "social_justice",
       "equality"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 457,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T09:48:12.242214+00:00"
   },
   {
     "transcript_id": 135,
@@ -4052,7 +4454,10 @@
       "personal_development",
       "motivation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 113,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T09:31:33.806162+00:00"
   },
   {
     "transcript_id": 136,
@@ -4084,7 +4489,10 @@
       "animal_behavior",
       "dog_training"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 142,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:55:56.369855+00:00"
   },
   {
     "transcript_id": 137,
@@ -4115,7 +4523,10 @@
       "mental_health",
       "emotional_intelligence"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 119,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T09:15:19.870329+00:00"
   },
   {
     "transcript_id": 138,
@@ -4145,7 +4556,10 @@
       "learning",
       "memory"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 237,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:49:47.259183+00:00"
   },
   {
     "transcript_id": 139,
@@ -4171,7 +4585,10 @@
       "weather_advice",
       "outdoor_dining"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 129,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:43:36.722044+00:00"
   },
   {
     "transcript_id": 140,
@@ -4197,7 +4614,10 @@
       "productivity",
       "organizational_skills"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 140,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:37:26.388833+00:00"
   },
   {
     "transcript_id": 141,
@@ -4227,7 +4647,10 @@
       "self-programming",
       "learning"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 262,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:31:15.743753+00:00"
   },
   {
     "transcript_id": 142,
@@ -4256,7 +4679,10 @@
       "language",
       "semiotics"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 548,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T08:59:05.346849+00:00"
   },
   {
     "transcript_id": 143,
@@ -4286,7 +4712,10 @@
       "communication",
       "teaching"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 257,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:25:01.121499+00:00"
   },
   {
     "transcript_id": 144,
@@ -4318,7 +4747,10 @@
       "selfishness",
       "talent"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 218,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:18:47.290878+00:00"
   },
   {
     "transcript_id": 145,
@@ -4345,7 +4777,10 @@
       "politics",
       "media"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 751,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T08:42:30.387094+00:00"
   },
   {
     "transcript_id": 146,
@@ -4376,7 +4811,10 @@
       "art",
       "digital_tools"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 858,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:12:34.977391+00:00"
   },
   {
     "transcript_id": 147,
@@ -4404,7 +4842,10 @@
       "discrimination",
       "individuals"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 711,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T08:25:38.633783+00:00"
   },
   {
     "transcript_id": 148,
@@ -4435,7 +4876,10 @@
       "career",
       "skill_development"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 265,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T06:05:51.185640+00:00"
   },
   {
     "transcript_id": 149,
@@ -4465,7 +4909,10 @@
       "creativity",
       "cartooning"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 542,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:59:35.521569+00:00"
   },
   {
     "transcript_id": 150,
@@ -4495,7 +4942,10 @@
       "drawing",
       "sketching"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 416,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:53:05.038853+00:00"
   },
   {
     "transcript_id": 151,
@@ -4523,7 +4973,10 @@
       "media_criticism",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 270,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T08:08:44.149939+00:00"
   },
   {
     "transcript_id": 152,
@@ -4554,7 +5007,10 @@
       "hypnosis",
       "manipulation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 167,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:46:40.040187+00:00"
   },
   {
     "transcript_id": 153,
@@ -4585,7 +5041,10 @@
       "career",
       "profit_margin"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 465,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:40:29.039230+00:00"
   },
   {
     "transcript_id": 154,
@@ -4617,7 +5076,10 @@
       "systems_thinking",
       "evolutionary_filters"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 526,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:34:02.167333+00:00"
   },
   {
     "transcript_id": 155,
@@ -4649,7 +5111,10 @@
       "self-programming",
       "positive_words"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 329,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:27:33.873580+00:00"
   },
   {
     "transcript_id": 156,
@@ -4680,7 +5145,10 @@
       "persuasion",
       "storytelling"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 170,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:21:14.454295+00:00"
   },
   {
     "transcript_id": 157,
@@ -4710,7 +5178,10 @@
       "identity",
       "multiple_personality"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 420,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T07:52:21.907067+00:00"
   },
   {
     "transcript_id": 158,
@@ -4742,7 +5213,10 @@
       "reframing",
       "productivity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 854,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:15:03.794000+00:00"
   },
   {
     "transcript_id": 159,
@@ -4768,7 +5242,10 @@
       "personal_brand",
       "back_scratching"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 381,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:08:21.649262+00:00"
   },
   {
     "transcript_id": 160,
@@ -4798,7 +5275,10 @@
       "humor",
       "illusion"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 82,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T16:09:08.519084+00:00"
   },
   {
     "transcript_id": 161,
@@ -4830,7 +5310,10 @@
       "cognitive_bias",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 318,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T05:01:59.466161+00:00"
   },
   {
     "transcript_id": 162,
@@ -4860,7 +5343,10 @@
       "personal_brand",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 265,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T04:37:30.719139+00:00"
   },
   {
     "transcript_id": 163,
@@ -4896,7 +5382,10 @@
       "media_criticism",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 234,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T04:31:13.854720+00:00"
   },
   {
     "transcript_id": 164,
@@ -4928,7 +5417,10 @@
       "cognitive_bias",
       "decision_making"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 40,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T16:02:54.360819+00:00"
   },
   {
     "transcript_id": 165,
@@ -4959,7 +5451,10 @@
       "identity",
       "self-programming"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 606,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T04:24:56.737049+00:00"
   },
   {
     "transcript_id": 166,
@@ -4990,7 +5485,10 @@
       "personal_brand",
       "self-programming"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 584,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T04:18:24.520991+00:00"
   },
   {
     "transcript_id": 167,
@@ -5020,7 +5518,10 @@
       "politics",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 434,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T07:35:54.143444+00:00"
   },
   {
     "transcript_id": 168,
@@ -5053,7 +5554,10 @@
       "humor",
       "logic"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 634,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:56:48.391503+00:00"
   },
   {
     "transcript_id": 169,
@@ -5084,7 +5588,10 @@
       "identity",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 348,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T04:11:51.932480+00:00"
   },
   {
     "transcript_id": 170,
@@ -5116,7 +5623,10 @@
       "personal_brand",
       "hypnosis"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 154,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T07:19:20.328006+00:00"
   },
   {
     "transcript_id": 171,
@@ -5148,7 +5658,10 @@
       "self-programming",
       "motivation"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 101,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T07:03:00.412709+00:00"
   },
   {
     "transcript_id": 172,
@@ -5178,7 +5691,10 @@
       "persuasion",
       "communication"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 129,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T06:46:48.634350+00:00"
   },
   {
     "transcript_id": 173,
@@ -5208,7 +5724,10 @@
       "negotiation",
       "communication"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 136,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T06:30:31.815417+00:00"
   },
   {
     "transcript_id": 174,
@@ -5238,7 +5757,10 @@
       "communication",
       "non-verbal"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 146,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T06:14:15.624326+00:00"
   },
   {
     "transcript_id": 175,
@@ -5272,7 +5794,10 @@
       "personal_brand",
       "storytelling"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 282,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T04:05:31.191410+00:00"
   },
   {
     "transcript_id": 176,
@@ -5302,7 +5827,10 @@
       "self-programming",
       "willpower"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 221,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T05:57:58.780226+00:00"
   },
   {
     "transcript_id": 177,
@@ -5336,7 +5864,10 @@
       "politics",
       "conspiracy_theories"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 337,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T05:41:34.405668+00:00"
   },
   {
     "transcript_id": 178,
@@ -5367,7 +5898,10 @@
       "finance",
       "personal_finance"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 1305,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:50:34.090624+00:00"
   },
   {
     "transcript_id": 179,
@@ -5397,7 +5931,10 @@
       "cognitive_bias",
       "behavioral_change"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 152,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:59:14.328366+00:00"
   },
   {
     "transcript_id": 180,
@@ -5428,7 +5965,10 @@
       "persuasion",
       "mind-reading"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 82,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T05:25:07.428135+00:00"
   },
   {
     "transcript_id": 181,
@@ -5458,7 +5998,10 @@
       "self-programming",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 235,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T05:08:55.306660+00:00"
   },
   {
     "transcript_id": 182,
@@ -5489,7 +6032,10 @@
       "personal_brand",
       "media_criticism"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 580,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:53:05.575788+00:00"
   },
   {
     "transcript_id": 183,
@@ -5521,7 +6067,10 @@
       "cognitive_bias",
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 274,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T04:52:33.940231+00:00"
   },
   {
     "transcript_id": 184,
@@ -5547,7 +6096,10 @@
       "negotiation",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 97,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:44:01.737878+00:00"
   },
   {
     "transcript_id": 185,
@@ -5577,7 +6129,10 @@
       "persuasion",
       "self-programming"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 138,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T04:36:09.636671+00:00"
   },
   {
     "transcript_id": 186,
@@ -5610,7 +6165,10 @@
       "cognitive_bias",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 211,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T04:03:46.291165+00:00"
   },
   {
     "transcript_id": 187,
@@ -5641,7 +6199,10 @@
       "systems_thinking",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 1959,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:37:56.289089+00:00"
   },
   {
     "transcript_id": 188,
@@ -5672,7 +6233,10 @@
       "cognitive_bias",
       "decision_making"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 145,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T03:47:26.689939+00:00"
   },
   {
     "transcript_id": 189,
@@ -5702,7 +6266,10 @@
       "persuasion",
       "identity"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 118,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T03:31:10.083593+00:00"
   },
   {
     "transcript_id": 190,
@@ -5732,7 +6299,10 @@
       "negotiation",
       "personal_brand"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 252,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:46:34.546196+00:00"
   },
   {
     "transcript_id": 191,
@@ -5762,7 +6332,10 @@
       "self-programming",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 2115,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:31:21.594677+00:00"
   },
   {
     "transcript_id": 192,
@@ -5791,7 +6364,10 @@
       "cannabis",
       "medication"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 274,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T03:15:01.887588+00:00"
   },
   {
     "transcript_id": 193,
@@ -5819,7 +6395,10 @@
       "exercise",
       "habits"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 170,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T02:58:34.622902+00:00"
   },
   {
     "transcript_id": 194,
@@ -5849,7 +6428,10 @@
       "decision_making",
       "psychology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 199,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:40:20.556990+00:00"
   },
   {
     "transcript_id": 195,
@@ -5876,7 +6458,10 @@
       "confidence",
       "self-esteem"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 410,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T02:42:16.650245+00:00"
   },
   {
     "transcript_id": 196,
@@ -5904,7 +6489,10 @@
       "persuasion",
       "communication"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 392,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:34:09.421681+00:00"
   },
   {
     "transcript_id": 197,
@@ -5932,7 +6520,10 @@
       "social_justice",
       "economics"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 136,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T02:25:59.163682+00:00"
   },
   {
     "transcript_id": 198,
@@ -5960,7 +6551,10 @@
       "creativity",
       "strategy"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 894,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:24:42.631868+00:00"
   },
   {
     "transcript_id": 199,
@@ -5992,7 +6586,10 @@
       "mindset",
       "empowerment"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 203,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:27:47.537626+00:00"
   },
   {
     "transcript_id": 200,
@@ -6026,7 +6623,10 @@
       "video_production",
       "technology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 295,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:18:25.227249+00:00"
   },
   {
     "transcript_id": 201,
@@ -6057,7 +6657,10 @@
       "potential",
       "accomplishments"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 91,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T02:09:50.117835+00:00"
   },
   {
     "transcript_id": 202,
@@ -6084,7 +6687,10 @@
       "character planning",
       "blocking out"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 66,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:12:15.951425+00:00"
   },
   {
     "transcript_id": 203,
@@ -6117,7 +6723,10 @@
       "effects",
       "informed choices"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 693,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T15:06:12.215259+00:00"
   },
   {
     "transcript_id": 204,
@@ -6148,7 +6757,10 @@
       "environmental conditions",
       "persuasiveness"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 89,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T01:53:36.395443+00:00"
   },
   {
     "transcript_id": 205,
@@ -6176,7 +6788,10 @@
       "memorization",
       "smart discussions"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 184,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T01:37:27.504079+00:00"
   },
   {
     "transcript_id": 206,
@@ -6209,7 +6824,10 @@
       "expectation",
       "opportunity noticing"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 845,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:59:52.983837+00:00"
   },
   {
     "transcript_id": 207,
@@ -6243,7 +6861,10 @@
       "commitment to learning",
       "projecting knowledge"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 618,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:53:34.623758+00:00"
   },
   {
     "transcript_id": 208,
@@ -6276,7 +6897,10 @@
       "brainwashing",
       "influence voters"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 233,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T01:21:09.330126+00:00"
   },
   {
     "transcript_id": 209,
@@ -6310,7 +6934,10 @@
       "diet",
       "positive thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 116,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T01:13:04.991786+00:00"
   },
   {
     "transcript_id": 210,
@@ -6351,7 +6978,10 @@
       "brainwashing",
       "gaslighting"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 209,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T00:56:47.517537+00:00"
   },
   {
     "transcript_id": 211,
@@ -6377,7 +7007,10 @@
       "self-programming",
       "cognitive_bias"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 275,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:47:22.667541+00:00"
   },
   {
     "transcript_id": 212,
@@ -6407,7 +7040,10 @@
       "persuasion",
       "communication"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 1292,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:41:15.086502+00:00"
   },
   {
     "transcript_id": 213,
@@ -6434,7 +7070,10 @@
       "philosophy",
       "identity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 756,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:34:43.382340+00:00"
   },
   {
     "transcript_id": 214,
@@ -6465,7 +7104,10 @@
       "career",
       "personal_brand"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 69,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:21:36.360569+00:00"
   },
   {
     "transcript_id": 215,
@@ -6495,7 +7137,10 @@
       "self-programming",
       "motivation"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 103,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T00:40:25.989088+00:00"
   },
   {
     "transcript_id": 216,
@@ -6522,7 +7167,10 @@
       "design",
       "aesthetics"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 695,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:28:24.633762+00:00"
   },
   {
     "transcript_id": 217,
@@ -6548,7 +7196,10 @@
       "education",
       "technology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 759,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:22:07.221077+00:00"
   },
   {
     "transcript_id": 218,
@@ -6580,7 +7231,10 @@
       "art",
       "creativity"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 783,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:15:46.113500+00:00"
   },
   {
     "transcript_id": 219,
@@ -6611,7 +7265,10 @@
       "productivity",
       "time_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 213,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:15:30.928837+00:00"
   },
   {
     "transcript_id": 220,
@@ -6641,7 +7298,10 @@
       "media_criticism",
       "public_relations"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 183,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T00:24:05.513230+00:00"
   },
   {
     "transcript_id": 221,
@@ -6672,7 +7332,10 @@
       "self-programming",
       "social_skills"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 148,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T00:07:46.010434+00:00"
   },
   {
     "transcript_id": 222,
@@ -6703,7 +7366,10 @@
       "career",
       "negotiation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 1672,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:09:26.157289+00:00"
   },
   {
     "transcript_id": 223,
@@ -6734,7 +7400,10 @@
       "cognitive_bias",
       "psychology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 356,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T21:23:07.161743+00:00"
   },
   {
     "transcript_id": 224,
@@ -6764,7 +7433,10 @@
       "learning",
       "education"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 222,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T03:02:59.052123+00:00"
   },
   {
     "transcript_id": 225,
@@ -6790,7 +7462,10 @@
       "productivity",
       "time_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 212,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:56:44.554546+00:00"
   },
   {
     "transcript_id": 226,
@@ -6825,7 +7500,10 @@
       "influence",
       "networks"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 278,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:50:32.183112+00:00"
   },
   {
     "transcript_id": 227,
@@ -6857,7 +7535,10 @@
       "exercise",
       "wellness"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 156,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:44:17.458248+00:00"
   },
   {
     "transcript_id": 228,
@@ -6890,7 +7571,10 @@
       "finance",
       "technology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 299,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:38:09.434378+00:00"
   },
   {
     "transcript_id": 229,
@@ -6920,7 +7604,10 @@
       "communication",
       "emotional_intelligence"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 609,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T14:02:55.256135+00:00"
   },
   {
     "transcript_id": 230,
@@ -6948,7 +7635,10 @@
       "luck",
       "probability"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 530,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:31:53.218062+00:00"
   },
   {
     "transcript_id": 231,
@@ -6980,7 +7670,10 @@
       "risk_management",
       "decision_making"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 851,
+    "publish_date": "",
+    "downloaded_at": "2026-03-16T23:51:29.899711+00:00"
   },
   {
     "transcript_id": 232,
@@ -7011,7 +7704,10 @@
       "measurement",
       "perception"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 101,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:25:31.655869+00:00"
   },
   {
     "transcript_id": 233,
@@ -7037,7 +7733,10 @@
       "organization",
       "clutter_reduction"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 158,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:19:25.237821+00:00"
   },
   {
     "transcript_id": 234,
@@ -7063,7 +7762,10 @@
       "duct_tape",
       "improvement"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 136,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:13:16.237181+00:00"
   },
   {
     "transcript_id": 235,
@@ -7095,7 +7797,10 @@
       "friendship",
       "social_skills"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 224,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T21:20:49.320239+00:00"
   },
   {
     "transcript_id": 236,
@@ -7126,7 +7831,10 @@
       "tool_modification",
       "performance_improvement"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 270,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T02:00:52.373779+00:00"
   },
   {
     "transcript_id": 237,
@@ -7156,7 +7864,10 @@
       "mood_tracking",
       "physical_causes"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 116,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:54:34.790656+00:00"
   },
   {
     "transcript_id": 238,
@@ -7187,7 +7898,10 @@
       "personal_systems",
       "convenience"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 93,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:48:25.591636+00:00"
   },
   {
     "transcript_id": 239,
@@ -7220,7 +7934,10 @@
       "experimentation",
       "learning"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 627,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:42:18.712310+00:00"
   },
   {
     "transcript_id": 240,
@@ -7251,7 +7968,10 @@
       "BS_detection",
       "age_and_experience"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 343,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:56:38.296236+00:00"
   },
   {
     "transcript_id": 241,
@@ -7280,7 +8000,10 @@
     "topic_buckets": [
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 93,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:50:21.448272+00:00"
   },
   {
     "transcript_id": 242,
@@ -7311,7 +8034,10 @@
       "cognitive_bias",
       "persuasion"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 176,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:35:41.295661+00:00"
   },
   {
     "transcript_id": 243,
@@ -7341,7 +8067,10 @@
       "personal_brand",
       "art"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 104,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:29:30.316273+00:00"
   },
   {
     "transcript_id": 244,
@@ -7371,7 +8100,10 @@
       "persuasion",
       "systems_thinking"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 306,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:23:18.654901+00:00"
   },
   {
     "transcript_id": 245,
@@ -7396,7 +8128,10 @@
       "animals",
       "hypnosis"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 91,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:17:16.704075+00:00"
   },
   {
     "transcript_id": 246,
@@ -7429,7 +8164,10 @@
       "self-programming",
       "career"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 129,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:11:11.762685+00:00"
   },
   {
     "transcript_id": 247,
@@ -7460,7 +8198,10 @@
       "cognitive_bias",
       "negotiation"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 204,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:44:12.022061+00:00"
   },
   {
     "transcript_id": 248,
@@ -7487,7 +8228,10 @@
       "humor",
       "learning"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 90,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T01:04:59.880307+00:00"
   },
   {
     "transcript_id": 249,
@@ -7517,7 +8261,10 @@
       "persuasion",
       "media_criticism"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 155,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:37:55.069860+00:00"
   },
   {
     "transcript_id": 250,
@@ -7545,7 +8292,10 @@
       "personal_brand",
       "systems_thinking"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 153,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T00:58:55.065573+00:00"
   },
   {
     "transcript_id": 251,
@@ -7577,7 +8327,10 @@
       "persuasion",
       "politics"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 472,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:31:37.886929+00:00"
   },
   {
     "transcript_id": 252,
@@ -7608,7 +8361,10 @@
       "cognitive_bias",
       "research"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 266,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T00:52:46.210758+00:00"
   },
   {
     "transcript_id": 253,
@@ -7638,7 +8394,10 @@
       "systems_thinking",
       "technology"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 440,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T00:46:31.983652+00:00"
   },
   {
     "transcript_id": 254,
@@ -7669,7 +8428,10 @@
       "creativity",
       "self-experimentation"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 173,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T00:37:57.400333+00:00"
   },
   {
     "transcript_id": 255,
@@ -7699,7 +8461,10 @@
       "personal_brand",
       "energy_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 714,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:24:53.348715+00:00"
   },
   {
     "transcript_id": 256,
@@ -7725,7 +8490,10 @@
       "learning",
       "time_management"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 134,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:17:50.971257+00:00"
   },
   {
     "transcript_id": 257,
@@ -7756,7 +8524,10 @@
       "identity",
       "ego_reframing"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 525,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T00:39:59.654744+00:00"
   },
   {
     "transcript_id": 258,
@@ -7787,7 +8558,10 @@
       "fitness",
       "habits"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 528,
+    "publish_date": "",
+    "downloaded_at": "2026-03-18T13:11:36.757169+00:00"
   },
   {
     "transcript_id": 259,
@@ -7819,7 +8593,10 @@
       "personal_brand",
       "networking"
     ],
-    "is_persuasion_focused": true
+    "is_persuasion_focused": true,
+    "duration_seconds": 561,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T20:12:35.731176+00:00"
   },
   {
     "transcript_id": 260,
@@ -7850,6 +8627,9 @@
       "career",
       "practice"
     ],
-    "is_persuasion_focused": false
+    "is_persuasion_focused": false,
+    "duration_seconds": 277,
+    "publish_date": "",
+    "downloaded_at": "2026-03-17T20:06:21.090677+00:00"
   }
 ]

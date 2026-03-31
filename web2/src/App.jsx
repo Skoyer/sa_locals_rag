@@ -3,11 +3,13 @@ import './App.css';
 import PageHeader from './components/PageHeader.jsx';
 import HeroWordCloud from './components/HeroWordCloud.jsx';
 import LessonLibrary from './components/LessonLibrary.jsx';
-import LessonThemes from './components/LessonThemes.jsx';
 import { useDebouncedValue } from './hooks/useDebouncedValue.js';
 import {
-  clusterDisplayTitle,
+  clusterRowLabel,
+  clusterThemeAbbrev,
   lessonMatchesFilters,
+  sortLessons,
+  themeTitleMatchesQuery,
 } from './normalize.js';
 
 function getData() {
@@ -35,7 +37,9 @@ export default function App() {
   const [searchInput, setSearchInput] = useState('');
   const debouncedSearch = useDebouncedValue(searchInput, 250);
   const [filterQuery, setFilterQuery] = useState('');
-  const [activeThemeId, setActiveThemeId] = useState(null);
+  const [selectedThemeIds, setSelectedThemeIds] = useState([]);
+  const [sortKey, setSortKey] = useState('newest');
+  const [themesVisible, setThemesVisible] = useState(true);
 
   useEffect(() => {
     setFilterQuery(debouncedSearch.trim().toLowerCase());
@@ -46,24 +50,37 @@ export default function App() {
 
   const clusters = useMemo(() => buildClusters(lessons), [lessons]);
 
-  const filteredLessons = useMemo(() => {
-    return lessons.filter((L) => lessonMatchesFilters(L, filterQuery, activeThemeId));
-  }, [lessons, filterQuery, activeThemeId]);
-
-  const activeThemeName = useMemo(() => {
-    if (activeThemeId == null) return '';
-    const row = clusters.find((c) => String(c.cid) === String(activeThemeId));
-    if (!row) return '';
-    const first = row.list[0] || {};
-    return clusterDisplayTitle({
-      title2: first.title2,
-      title_original: first.cluster_name,
-      cluster_name: first.cluster_name,
+  const visibleClusters = useMemo(() => {
+    return clusters.filter((row) => {
+      const label = clusterRowLabel(row) || `Theme ${clusterThemeAbbrev(row.cid)}`;
+      return themeTitleMatchesQuery(filterQuery, label);
     });
-  }, [activeThemeId, clusters]);
+  }, [clusters, filterQuery]);
 
-  const hasActiveFilters =
-    activeThemeId != null || searchInput.trim() !== '';
+  useEffect(() => {
+    const visible = new Set(visibleClusters.map((c) => String(c.cid)));
+    setSelectedThemeIds((prev) => prev.filter((id) => visible.has(id)));
+  }, [visibleClusters]);
+
+  const filteredLessons = useMemo(() => {
+    const matched = lessons.filter((L) =>
+      lessonMatchesFilters(L, filterQuery, selectedThemeIds),
+    );
+    return sortLessons(matched, sortKey);
+  }, [lessons, filterQuery, selectedThemeIds, sortKey]);
+
+  const selectedThemeLabels = useMemo(() => {
+    return selectedThemeIds.map((id) => {
+      const row = clusters.find((c) => String(c.cid) === id);
+      if (!row) return `Theme ${id}`;
+      return clusterRowLabel(row) || `Theme ${clusterThemeAbbrev(id)}`;
+    });
+  }, [selectedThemeIds, clusters]);
+
+  const hasActiveFilters = selectedThemeIds.length > 0 || searchInput.trim() !== '';
+
+  const searchPending =
+    searchInput.trim() !== debouncedSearch.trim();
 
   const handleSearchKeyDown = useCallback(
     (e) => {
@@ -88,11 +105,14 @@ export default function App() {
   const onResetFilters = useCallback(() => {
     setSearchInput('');
     setFilterQuery('');
-    setActiveThemeId(null);
+    setSelectedThemeIds([]);
   }, []);
 
-  const onThemeSelect = useCallback((cid) => {
-    setActiveThemeId((prev) => (String(prev) === String(cid) ? null : cid));
+  const onThemeToggle = useCallback((cid) => {
+    const s = String(cid);
+    setSelectedThemeIds((prev) =>
+      prev.includes(s) ? prev.filter((x) => x !== s) : [...prev, s],
+    );
   }, []);
 
   if (!data) {
@@ -110,22 +130,26 @@ export default function App() {
       <main>
         <HeroWordCloud />
         <section className="content-band" aria-label="Library and themes">
-          <div className="page-shell page-shell--band">
+          <div className="page-shell page-shell--band page-shell--library-full">
             <LessonLibrary
               searchInput={searchInput}
+              searchPending={searchPending}
               onSearchChange={setSearchInput}
               onSearchKeyDown={handleSearchKeyDown}
               onClearSearch={onClearSearch}
               filteredLessons={filteredLessons}
-              activeThemeId={activeThemeId}
-              activeThemeName={activeThemeName}
+              totalLessonCount={lessons.length}
+              filterActive={Boolean(filterQuery) || selectedThemeIds.length > 0}
+              visibleClusters={visibleClusters}
+              selectedThemeIds={selectedThemeIds}
+              selectedThemeLabels={selectedThemeLabels}
+              onThemeToggle={onThemeToggle}
+              sortKey={sortKey}
+              onSortChange={setSortKey}
               onResetFilters={onResetFilters}
               hasActiveFilters={hasActiveFilters}
-            />
-            <LessonThemes
-              clusters={clusters}
-              activeThemeId={activeThemeId}
-              onThemeSelect={onThemeSelect}
+              themesVisible={themesVisible}
+              onToggleThemes={() => setThemesVisible((v) => !v)}
             />
           </div>
         </section>

@@ -1,8 +1,11 @@
-import { clusterThemeAbbrev, videoDisplayTitle, videoTooltipText } from '../normalize.js';
+import { useState } from 'react';
+import LessonCard from './LessonCard.jsx';
+import LessonThemes from './LessonThemes.jsx';
+import WordcloudDialog from './WordcloudDialog.jsx';
 
 function SearchIcon() {
   return (
-    <svg className="search-input-wrap__icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+    <svg className="search-input-wrap__icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
       <path
         fill="currentColor"
         d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
@@ -11,37 +14,64 @@ function SearchIcon() {
   );
 }
 
+const SORT_OPTIONS = [
+  { id: 'newest', label: 'Newest' },
+  { id: 'oldest', label: 'Oldest' },
+  { id: 'az', label: 'A–Z' },
+];
+
 export default function LessonLibrary({
   searchInput,
+  searchPending,
   onSearchChange,
   onSearchKeyDown,
   onClearSearch,
   filteredLessons,
-  activeThemeId,
-  activeThemeName,
+  totalLessonCount,
+  filterActive,
+  visibleClusters,
+  selectedThemeIds,
+  selectedThemeLabels,
+  onThemeToggle,
+  sortKey,
+  onSortChange,
   onResetFilters,
   hasActiveFilters,
+  themesVisible,
+  onToggleThemes,
 }) {
   const showClear = searchInput.length > 0;
+  const [wcModal, setWcModal] = useState(null);
+
+  const shown = filteredLessons.length;
+  const total = totalLessonCount;
 
   return (
-    <section className="library panel-card" aria-labelledby="lesson-library-heading">
+    <section
+      className="library library-panel panel-card"
+      aria-labelledby="lesson-library-heading"
+    >
       <div className="panel-card__titlebar">
         <h2 id="lesson-library-heading" className="section-title">
           Lesson Library
         </h2>
-        <p className="panel-helper">Search and skim all micro-lessons.</p>
+        <p className="panel-helper">Search micro-lessons and filter by theme.</p>
         {hasActiveFilters ? (
           <div className="filter-bar" role="status" aria-live="polite">
-            {activeThemeId != null ? (
+            {selectedThemeIds.length > 0 ? (
               <span className="filter-chip">
-                Theme:{' '}
+                Themes:{' '}
                 <strong>
-                  {activeThemeName || `Theme ${clusterThemeAbbrev(activeThemeId)}`}
+                  {selectedThemeLabels.map((name, i) => (
+                    <span key={selectedThemeIds[i]}>
+                      {i > 0 ? ', ' : ''}
+                      {name}
+                    </span>
+                  ))}
                 </strong>
               </span>
             ) : null}
-            {activeThemeId != null && searchInput.trim() ? (
+            {selectedThemeIds.length > 0 && searchInput.trim() ? (
               <span className="filter-bar__sep" aria-hidden="true">
                 {' '}
                 ·{' '}
@@ -57,19 +87,19 @@ export default function LessonLibrary({
         ) : null}
       </div>
 
-      <div role="search" className="search-panel">
+      <div role="search" className="search-panel search-panel--dominant">
         <label htmlFor="lesson-search" className="visually-hidden">
-          Search lessons by title or description
+          Search micro-lessons by title or topic
         </label>
-        <div className="search-input-wrap">
+        <div className="search-input-wrap search-input-wrap--dominant">
           <SearchIcon />
           <input
             type="search"
             id="lesson-search"
             className="search-input-wrap__input"
-            placeholder="Search by title or description…"
+            placeholder="Search micro-lessons by title or topic"
             autoComplete="off"
-            aria-label="Search lessons by title or description"
+            aria-label="Search micro-lessons by title or topic"
             value={searchInput}
             onChange={(e) => onSearchChange(e.target.value)}
             onKeyDown={onSearchKeyDown}
@@ -87,50 +117,78 @@ export default function LessonLibrary({
         </div>
       </div>
 
+      <div className="library-toolbar">
+        <p className="library-toolbar__counts" role="status" aria-live="polite">
+          {searchPending ? (
+            <span className="library-toolbar__pending">Updating results…</span>
+          ) : filterActive ? (
+            <>
+              <strong className="library-toolbar__num">{shown}</strong>
+              <span className="library-toolbar__of"> of {total} lessons</span>
+              {shown < total ? <span className="library-toolbar__hint"> match</span> : null}
+            </>
+          ) : (
+            <>
+              <strong className="library-toolbar__num">{shown}</strong>
+              <span className="library-toolbar__of"> lessons</span>
+            </>
+          )}
+        </p>
+        <div className="library-toolbar__end">
+          <button
+            type="button"
+            className={`themes-toggle${themesVisible ? ' themes-toggle--active' : ''}`}
+            aria-expanded={themesVisible}
+            onClick={onToggleThemes}
+          >
+            Themes
+          </button>
+          <div className="sort-toolbar" role="toolbar" aria-label="Sort lesson list">
+            <span className="sort-toolbar__label" id="sort-label">
+              Sort
+            </span>
+            <div className="sort-toolbar__buttons" role="group" aria-labelledby="sort-label">
+              {SORT_OPTIONS.map(({ id, label }) => (
+                <button
+                  key={id}
+                  type="button"
+                  className={`sort-pill${sortKey === id ? ' sort-pill--active' : ''}`}
+                  aria-pressed={sortKey === id}
+                  onClick={() => onSortChange(id)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {themesVisible ? (
+        <div id="lesson-themes-region">
+          <LessonThemes
+            visibleClusters={visibleClusters}
+            selectedThemeIds={selectedThemeIds}
+            onThemeToggle={onThemeToggle}
+          />
+        </div>
+      ) : null}
+
       {filteredLessons.length === 0 ? (
         <p className="lesson-list-empty" role="status">
           No lessons match your filters.
         </p>
       ) : (
-      <ul className="lesson-list" role="list">
-        {filteredLessons.map((L) => {
-          const title = videoDisplayTitle(L);
-          const tip = videoTooltipText(L);
-          const excerpt = (L.short_description || L.summary_text || L.core_lesson || '').trim();
-          const themeTag = L.primary_topics?.[0] || L.cluster_name || '';
-          const href = L.url || '#';
-          const rowContent = (
-            <>
-              <span className="lesson-row__title">{title}</span>
-              {excerpt ? (
-                <span className="lesson-row__excerpt">{excerpt}</span>
-              ) : null}
-              <span className="lesson-row__meta">
-                #{L.transcript_id}
-                {themeTag ? ` · ${themeTag}` : ''}
-              </span>
-            </>
-          );
-          return (
+        <ul className="lesson-list" role="list">
+          {filteredLessons.map((L) => (
             <li key={L.transcript_id} className="lesson-list__item" role="listitem">
-              {L.url ? (
-                <a
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="lesson-row"
-                  title={tip}
-                >
-                  {rowContent}
-                </a>
-              ) : (
-                <div className="lesson-row lesson-row--static">{rowContent}</div>
-              )}
+              <LessonCard L={L} onOpenWordcloudModal={setWcModal} />
             </li>
-          );
-        })}
-      </ul>
+          ))}
+        </ul>
       )}
+
+      <WordcloudDialog payload={wcModal} onClose={() => setWcModal(null)} />
     </section>
   );
 }

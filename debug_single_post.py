@@ -70,12 +70,14 @@ def main() -> int:
                 with yt_dlp.YoutubeDL(opts) as ydl:
                     ydl.download([stream_url])
                 db.insert_video(conn, url, title or "", description or "", "downloaded", file_path=out_path)
+                db.set_video_duration_from_file(conn, url, out_path)
                 log(f"SUCCESS: Downloaded HLS with yt-dlp to {out_path}")
                 return 0
             except Exception as e:
                 log(f"yt-dlp HLS failed: {e}; trying ffmpeg...")
             if locals_fetcher.download_locals_hls_with_ffmpeg(stream_url, out_path, cookies_path):
                 db.insert_video(conn, url, title or "", description or "", "downloaded", file_path=out_path)
+                db.set_video_duration_from_file(conn, url, out_path)
                 log(f"SUCCESS: Downloaded HLS with ffmpeg to {out_path}")
                 return 0
             db.insert_video(conn, url, title or "", description or "", "failed: ffmpeg HLS (debug)", file_path=out_path)
@@ -90,12 +92,14 @@ def main() -> int:
             with yt_dlp.YoutubeDL(opts) as ydl:
                 ydl.download([stream_url])
             db.insert_video(conn, url, title or "", description or "", "downloaded", file_path=out_path)
+            db.set_video_duration_from_file(conn, url, out_path)
             log(f"SUCCESS: Downloaded (direct, yt-dlp) to {out_path}")
             return 0
         except Exception as e:
             log(f"yt-dlp direct stream failed: {e}; trying requests...")
         if locals_fetcher.download_locals_stream_with_requests(stream_url, out_path, cookies_path):
             db.insert_video(conn, url, title or "", description or "", "downloaded", file_path=out_path)
+            db.set_video_duration_from_file(conn, url, out_path)
             log(f"SUCCESS: Downloaded (direct, requests) to {out_path}")
             return 0
 
