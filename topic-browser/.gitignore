@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Word cloud images symlinked in by .cursor/install.sh (see README "Word cloud thumbnails")
+public/wordclouds/per_video
+public/wordclouds/clusters
+public/wordclouds/topics
+public/wordclouds/master_wordcloud.png
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

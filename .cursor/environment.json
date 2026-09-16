@@ -1,0 +1,19 @@
+{
+  "name": "SA Locals RAG",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "topic-browser",
+      "command": "cd topic-browser && npm run dev -- --port 5173 --host"
+    },
+    {
+      "name": "web2",
+      "command": "cd web2 && npm run dev -- --port 5174 --host"
+    },
+    {
+      "name": "help-indexer-api",
+      "command": "source .venv/bin/activate && python -m help_indexer serve --port 8000"
+    }
+  ],
+  "ports": [5173, 5174, 8000]
+}
