@@ -31,7 +31,8 @@
     "is_persuasion_focused": false,
     "duration_seconds": 316,
     "publish_date": "",
-    "downloaded_at": "2026-03-17T20:00:13.682937+00:00"
+    "downloaded_at": "2026-03-17T20:00:13.682937+00:00",
+    "has_local_file": true
   },
   {
     "transcript_id": 2,

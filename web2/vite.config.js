@@ -49,4 +49,13 @@ export default defineConfig({
       },
     },
   ],
+  server: {
+    host: true,
+    proxy: {
+      '/media': {
+        target: 'http://127.0.0.1:8010',
+        changeOrigin: true,
+      },
+    },
+  },
 });
