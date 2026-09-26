@@ -1,8 +1,10 @@
-import { MinusCircle, PlusCircle } from 'lucide-react'
+import { MinusCircle, PlayCircle, PlusCircle } from 'lucide-react'
+import { useState } from 'react'
 
 import { useAuthStore } from '../../store/useAuthStore'
 import { useTopicBrowserStore } from '../../store/useTopicBrowserStore'
 import type { Video } from '../../types'
+import { VideoPlayerModal } from './VideoPlayerModal'
 
 function difficultyClass(d: string): string {
   if (d === 'beginner') return 'bg-emerald-900/70 text-emerald-200'
@@ -15,6 +17,7 @@ interface VideoCardProps {
 }
 
 export function VideoCard({ video }: VideoCardProps) {
+  const [playerOpen, setPlayerOpen] = useState(false)
   const user = useAuthStore((s) => s.user)
   const guestId = useAuthStore((s) => s.guestId)
   const progress = useAuthStore((s) =>
@@ -43,12 +46,21 @@ export function VideoCard({ video }: VideoCardProps) {
   const originalTitle = video.title?.trim() ?? ''
 
   const showReviewControls = pathPreviewMode && pathFilterVideoIds != null
+  const canPlayLocal = video.has_local_file === true
 
   return (
     <article className="flex flex-col rounded-lg border border-zinc-700/80 bg-zinc-900/60 p-4 shadow-sm">
       <div className="flex flex-wrap items-start justify-between gap-2">
         <h3 className="min-w-0 flex-1 text-base font-medium leading-snug text-zinc-100">
-          {video.url ? (
+          {canPlayLocal ? (
+            <button
+              type="button"
+              className="text-left text-emerald-300 hover:text-emerald-200 hover:underline"
+              onClick={() => setPlayerOpen(true)}
+            >
+              {heading}
+            </button>
+          ) : video.url ? (
             <a
               href={video.url}
               target="_blank"
@@ -96,6 +108,18 @@ export function VideoCard({ video }: VideoCardProps) {
         </p>
       ) : null}
       <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-zinc-800 pt-3">
+        {canPlayLocal ? (
+          <button
+            type="button"
+            className="inline-flex items-center gap-1.5 rounded-md bg-emerald-700/90 px-2.5 py-1 text-sm font-medium text-white hover:bg-emerald-600"
+            onClick={() => setPlayerOpen(true)}
+          >
+            <PlayCircle className="h-4 w-4 shrink-0" aria-hidden />
+            Watch local
+          </button>
+        ) : (
+          <span className="text-xs text-zinc-600">No local file</span>
+        )}
         {user ? (
           <button
             type="button"
@@ -153,6 +177,9 @@ export function VideoCard({ video }: VideoCardProps) {
             e.currentTarget.style.display = 'none'
           }}
         />
+      ) : null}
+      {playerOpen ? (
+        <VideoPlayerModal video={video} onClose={() => setPlayerOpen(false)} />
       ) : null}
     </article>
   )

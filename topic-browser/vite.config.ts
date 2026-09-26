@@ -10,5 +10,12 @@ export default defineConfig({
   /** Listen on all interfaces so other devices on the LAN can open http://<your-ip>:5173 */
   server: {
     host: true,
+    /** Proxy local MP4 streams from ``python -m local_media serve`` (default :8010). */
+    proxy: {
+      '/media': {
+        target: 'http://127.0.0.1:8010',
+        changeOrigin: true,
+      },
+    },
   },
 })

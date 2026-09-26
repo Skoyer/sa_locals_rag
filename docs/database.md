@@ -22,7 +22,7 @@ The primary table. Each row represents one Locals.com post/video.
 | `category` | TEXT | Post category (default: `Micro Lessons`) |
 | `tags` | TEXT | Comma-separated tags |
 | `topics` | TEXT | Raw topic strings |
-| `file_path` | TEXT | Absolute path to local video file |
+| `file_path` | TEXT | Absolute or relative path to local video file (often a Windows `C:\...` path) |
 | `posted_at` | TEXT | Original post date on Locals.com |
 | `summary_text` | TEXT | LLM-generated summary |
 | `core_lesson` | TEXT | Single most important takeaway |

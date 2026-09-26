@@ -243,3 +243,15 @@ Same via `python run_help_indexer.py …`.
 
 **Programmatic search**: use `help_indexer.search.search_segments(conn, query, limit=20)` — same SQL as documented in the plan (BM25 + `snippet()`).
 
+### Local library playback (Topic Browser / web2)
+
+Downloaded videos are already on disk (`OUTPUT_DIR`, paths in `videos.file_path`, often Windows `C:\...`). To watch them in the UI instead of opening Locals.com:
+
+```powershell
+python web/summary_page.py
+python -m local_media serve --port 8010
+cd topic-browser; npm run dev
+```
+
+Cards with a resolvable local file show **Watch local**. The media server maps `transcript_id` → `file_path` (with basename fallback under `OUTPUT_DIR` when the absolute C: path is not present on this machine).
+

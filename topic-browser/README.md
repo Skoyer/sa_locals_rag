@@ -50,13 +50,29 @@ The app uses **email magic links** — no Google, GitHub, or passwords in the UI
 
 You do **not** need Google Cloud or GitHub OAuth apps for this flow.
 
-## Dev server
+## Local video playback (not Locals.com)
+
+Downloaded files live under `OUTPUT_DIR` (default `./downloads`). Absolute Windows
+paths such as `C:\...\downloads\foo.mp4` are stored in `videos.file_path`. Browsers
+cannot open those `file://` paths, so Topic Browser and web2 stream them through a
+small local media server:
 
 ```bash
-cd topic-browser
-npm install
-npm run dev
+# Terminal 1 — resolve file_path from playlist_archive.db and stream MP4s
+python -m local_media serve --host 127.0.0.1 --port 8010
+
+# Terminal 2 — UI (proxies /media → :8010)
+cd topic-browser && npm run dev
+# or: cd web2 && npm run dev
 ```
+
+After re-exporting lessons (`python web/summary_page.py`), cards with a resolvable
+local file show **Watch local** and play in an in-app player. Locals.com links are
+no longer the primary action when a local file is available.
+
+Path resolution order: absolute `file_path` → path relative to the repo → same
+basename under `OUTPUT_DIR` (so a C: path still works if the file sits in your
+local `downloads` folder).
 
 ## Word cloud thumbnails
 

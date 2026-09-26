@@ -23,6 +23,11 @@ export interface LessonRaw {
   wordcloud_path: string
   topic_buckets: string[]
   is_persuasion_focused: boolean | null
+  /**
+   * True when export-time resolution found the downloaded file under
+   * ``videos.file_path`` / ``OUTPUT_DIR`` (see ``local_media``).
+   */
+  has_local_file?: boolean
 }
 
 export interface Topic {

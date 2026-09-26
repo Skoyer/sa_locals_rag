@@ -30,6 +30,9 @@ def _load_json_col(raw: str | None) -> list:
 
 
 def export_data_js(db_path: str) -> dict:
+    # Lazy import so export still works if local_media deps are unused.
+    from local_media.paths import file_available
+
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     cur = conn.execute(
@@ -38,7 +41,7 @@ def export_data_js(db_path: str) -> dict:
                v.key_concepts, v.difficulty, v.primary_topics, v.prerequisites,
                v.builds_toward, v.cluster_id, v.cluster_name, v.wordcloud_path,
                v.topic_buckets, v.is_persuasion_focused,
-               v.duration_seconds, v.publish_date, v.downloaded_at
+               v.duration_seconds, v.publish_date, v.downloaded_at, v.file_path
         FROM transcripts t
         INNER JOIN videos v ON v.url = t.video_url
         ORDER BY t.id
@@ -46,6 +49,7 @@ def export_data_js(db_path: str) -> dict:
     )
     lessons = []
     for row in cur.fetchall():
+        stored_path = row["file_path"] or ""
         lessons.append(
             {
                 "transcript_id": int(row["transcript_id"]),
@@ -68,6 +72,9 @@ def export_data_js(db_path: str) -> dict:
                 "duration_seconds": row["duration_seconds"],
                 "publish_date": row["publish_date"] or "",
                 "downloaded_at": row["downloaded_at"] or "",
+                # Browser plays via /media/video/{transcript_id}; never expose
+                # absolute C: paths in the JSON payload.
+                "has_local_file": bool(stored_path) and file_available(stored_path),
             }
         )
     conn.close()

@@ -6,6 +6,7 @@ import {
   videoTooltipText,
 } from '../normalize.js';
 import { useMediaQuery } from '../hooks/useMediaQuery.js';
+import LocalVideoDialog from './LocalVideoDialog.jsx';
 
 function PlayChevron() {
   return (
@@ -23,12 +24,15 @@ export default function LessonCard({ L, onOpenWordcloudModal }) {
   const tip = videoTooltipText(L);
   const excerpt = (L.short_description || L.summary_text || L.core_lesson || '').trim();
   const metaLine = buildLessonMetaSegments(L).join(' · ');
-  const href = L.url || '#';
+  const canPlayLocal = L.has_local_file === true;
+  const streamUrl = canPlayLocal ? `/media/video/${L.transcript_id}` : null;
+  const href = canPlayLocal ? null : L.url || '#';
   const wcSrc = lessonWordcloudSrc(L);
 
   const [imgFailed, setImgFailed] = useState(false);
   const [hoverOpen, setHoverOpen] = useState(false);
   const [previewPos, setPreviewPos] = useState(null);
+  const [playerOpen, setPlayerOpen] = useState(false);
   const thumbGroupRef = useRef(null);
 
   const prefersHover = useMediaQuery('(hover: hover)');
@@ -64,7 +68,7 @@ export default function LessonCard({ L, onOpenWordcloudModal }) {
 
   const openModal = () => {
     if (!wcSrc || imgFailed) return;
-    onOpenWordcloudModal({ title, src: wcSrc, href: L.url || null });
+    onOpenWordcloudModal({ title, src: wcSrc, href: canPlayLocal ? null : L.url || null });
   };
 
   const mainInner = (
@@ -76,7 +80,7 @@ export default function LessonCard({ L, onOpenWordcloudModal }) {
       </div>
       <span className="lesson-card__play">
         <PlayChevron />
-        <span className="lesson-card__play-label">Play</span>
+        <span className="lesson-card__play-label">{canPlayLocal ? 'Watch local' : 'Play'}</span>
       </span>
     </>
   );
@@ -129,10 +133,20 @@ export default function LessonCard({ L, onOpenWordcloudModal }) {
 
   return (
     <div
-      className={`lesson-card${L.url ? '' : ' lesson-card--static'} lesson-card--with-thumb`}
+      className={`lesson-card${canPlayLocal || L.url ? '' : ' lesson-card--static'} lesson-card--with-thumb`}
     >
       <div className="lesson-card__thumb-col">{thumbBlock}</div>
-      {L.url ? (
+      {canPlayLocal ? (
+        <button
+          type="button"
+          className="lesson-card__main"
+          title={tip}
+          aria-label={`Watch local video: ${title}`}
+          onClick={() => setPlayerOpen(true)}
+        >
+          {mainInner}
+        </button>
+      ) : L.url ? (
         <a
           href={href}
           target="_blank"
@@ -148,6 +162,14 @@ export default function LessonCard({ L, onOpenWordcloudModal }) {
           {mainInner}
         </div>
       )}
+      {playerOpen && streamUrl ? (
+        <LocalVideoDialog
+          open={playerOpen}
+          title={title}
+          streamUrl={streamUrl}
+          onClose={() => setPlayerOpen(false)}
+        />
+      ) : null}
     </div>
   );
 }
